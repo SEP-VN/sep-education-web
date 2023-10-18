@@ -71,7 +71,7 @@ const Header = () => {
             </Link>
           </li>
           <li class="nav-item">
-            <a target="_blank" class="nav-link text-header mr-2" href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAACzTRwNUNlhMR1NPV0I0NFdRNFY1OVBUSlRUMjBPTS4u" onClick={toggleCollapse}>
+            <a rel="noreferrer" target="_blank" class="nav-link text-header mr-2" href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAACzTRwNUNlhMR1NPV0I0NFdRNFY1OVBUSlRUMjBPTS4u" onClick={toggleCollapse}>
               Feedback cho dự án
             </a>
           </li>

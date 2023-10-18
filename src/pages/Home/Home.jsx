@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { redirect, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import bannerProject from "../../assets/images/banner/banner_project.png";
 
 const Home = () => {
@@ -13,9 +13,9 @@ const Home = () => {
     setActiveIndex((activeIndex - 1 + 3) % 3);
   };
 
-  const handleButtonUse =()=>{
-    redirect('/log-in');
-  }
+  // const handleButtonUse =()=>{
+  //   redirect('/log-in');
+  // }
 
   const slides = [
     {

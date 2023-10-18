@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const FooterList = ({ content, title }) => {
   return (
@@ -18,21 +17,20 @@ const FooterList = ({ content, title }) => {
 };
 
 const Footer = () => {
-  const first_list = [
-    {
-      redirect: "/scan",
-      content: "Quét món",
-    },
-    { 
-      redirect: "/reccomend-meals", 
-      content: "Gợi ý món ăn" 
-    },
-    { 
-      redirect: "/profile", 
-      content: "Theo dõi hồ sơ dinh dưỡng" 
-    }
-  ];
-  const first_title = "SEP";
+  // const first_list = [
+  //   {
+  //     redirect: "/scan",
+  //     content: "Quét món",
+  //   },
+  //   { 
+  //     redirect: "/reccomend-meals", 
+  //     content: "Gợi ý món ăn" 
+  //   },
+  //   { 
+  //     redirect: "/profile", 
+  //     content: "Theo dõi hồ sơ dinh dưỡng" 
+  //   }
+  // ];
 
   const second_list = [
     { 
