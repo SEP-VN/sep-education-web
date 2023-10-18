@@ -1,0 +1,8 @@
+.container {
+    width: 60%; /* Set the width to 60% of the page */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+
+  .list-group-item {
+    background-color: inherit; /* Replace 'your-color' with the desired background color */
+  }
