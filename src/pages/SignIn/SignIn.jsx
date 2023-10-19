@@ -23,7 +23,7 @@ const SignIn = () => {
             <div class="col-lg-6 mb-5 mb-lg-0">
               <h1 class="my-5 fw-bold ls-tight"> 
               Đăng kí trở thành 1 tình nguyện viên vì giáo dục<hr/>
-                <span class="text-primary">SEP</span>
+              <span style={{ color: '#ffb03b' }}>SEP</span>
               </h1>
               
               <p style={{ color: 'hsl(217, 10%, 50.8%)' }}>
