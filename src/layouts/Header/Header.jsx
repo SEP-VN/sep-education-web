@@ -8,10 +8,17 @@ const Header = () => {
   const [changeStatus, setChangeState ]= useState(false)
  
   const [isCollapsed, setIsCollapsed] = useState(true); 
+  const [activeItem, setActiveItem] = useState('Trang chủ');
 
-  function toggleCollapse() {
+  const toggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
-  }
+  };
+
+  const handleItemClick = (itemName) => {
+    setActiveItem(itemName);
+    toggleCollapse(); // Close the menu on item click
+  };
+
 
   const handleLogout =()=>{
     // Logout();
@@ -50,23 +57,39 @@ const Header = () => {
         style={{ justifyContent: "space-between" }}
       >
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <Link to="/" class="nav-link text-header mr-2" onClick={toggleCollapse}>
-              Trang chủ 
+          <li className={`nav-item ${activeItem === 'Trang chủ' ? 'active' : ''}`}>
+            <Link
+              to="/"
+              className="nav-link text-header mr-2"
+              onClick={() => handleItemClick('Trang chủ')}
+            >
+              Trang chủ
             </Link>
           </li>
-          <li class="nav-item">
-            <Link to="/voluntary-tourism" class="nav-link text-header mr-2" href="#" onClick={toggleCollapse}>
+          <li className={`nav-item ${activeItem === 'Du lịch tình nguyện' ? 'active' : ''}`}>
+            <Link 
+              to="/voluntary-tourism" 
+              class="nav-link text-header mr-2"  
+              onClick={() => handleItemClick('Du lịch tình nguyện')}
+            >
               Du lịch tình nguyện
             </Link>
           </li>
-          <li class="nav-item">
-            <Link to="/travel-partner" class="nav-link text-header mr-2" href="#" onClick={toggleCollapse}>
+          <li className={`nav-item ${activeItem === 'Đối tác du lịch' ? 'active' : ''}`}>
+            <Link 
+              to="/travel-partner" 
+              class="nav-link text-header mr-2"  
+              onClick={() => handleItemClick('Đối tác du lịch')}
+            >
               Đối tác du lịch
             </Link>
           </li>
-          <li class="nav-item">
-            <Link to="/contact" class="nav-link text-header mr-2" href="#" onClick={toggleCollapse}>
+          <li className={`nav-item ${activeItem === 'Liên hệ' ? 'active' : ''}`}>
+            <Link 
+              to="/contact" 
+              class="nav-link text-header mr-2"  
+              onClick={() => handleItemClick('Liên hệ')}
+            >
               Liên hệ
             </Link>
           </li>
