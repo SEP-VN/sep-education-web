@@ -96,7 +96,7 @@ console.log(`${process.env.REACT_APP_API_KEY}${process.env.REACT_APP_API_CUSTOME
                   {" "}
                   Chia sẻ kiến thức và trải nghiệm du lịch{" "}
                 </h4>
-                <Link to="/log-in" type="button" className="btn-primary btn-warning" style={{color:"white", borderRadius:"5px", marginTop:"20px", fontSize:"1.3rem",fontWeight:"400", padding:"15px"}}>Đăng kí ngay</Link>
+                <Link to="/sign-in" type="button" className="btn-primary btn-warning" style={{color:"white", borderRadius:"5px", marginTop:"20px", fontSize:"1.3rem",fontWeight:"400", padding:"15px"}}>Đăng kí ngay</Link>
               </div>
             </div>
           ))}
