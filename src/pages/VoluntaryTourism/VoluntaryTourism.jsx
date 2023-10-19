@@ -37,11 +37,10 @@ const VoluntaryTourism = () => {
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Heading
+                      Địa điểm tình nguyện
                     </Typography>
                     <Typography>
-                      This is a media card. You can use this section to describe the
-                      content.
+                      Giới thiệu về địa điểm tình nguyện - Giá cả
                     </Typography>
                   </CardContent>
                   <CardActions sx={{ justifyContent: 'center', padding: 2 }}>

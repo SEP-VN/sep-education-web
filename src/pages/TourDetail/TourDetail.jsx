@@ -60,21 +60,19 @@ Thông qua các hoạt động hỗ trợ thiết thực như đào tạo kỹ n
 <h2 className="text-center mb-4">Thông tin của chuyến đi</h2>
   <div className="row">
     <div className="col-md-6">
-      <h4>Project Highlights</h4>
+      <h4>Điểm nổi bật của chuyến đi</h4>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">Organizing community classes for local children</li>
-        <li class="list-group-item">Supporting women in their work at Mai Am</li>
-        <li class="list-group-item">Exploring the unique cultural aspects of Bao Loc</li>
-        <li class="list-group-item">Developing a community tourism model in Bao Loc - Lam Dong</li>
+        <li class="list-group-item">Tổ chức các lớp học cộng đồng cho trẻ em địa phương</li>
+        <li class="list-group-item">Tìm hiểu các nét văn hóa đặc sắc tại Bảo Lộc</li>
+        <li class="list-group-item">Phát triển mô hình và du lịch cộng đồng tại Bảo Lộc – Lâm Đồng</li>
       </ul>
     </div>
     <div className="col-md-6">
-      <h4>Destination Highlights</h4>
+      <h4>Điểm nổi bật của điểm đến</h4>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">Visit special places like Chua Di Da and Thanh Xa Thanh Mau Church</li>
-        <li class="list-group-item">Experience stand-up paddleboarding at the camping site</li>
-        <li class="list-group-item">Visit the tea hills</li>
-        <li class="list-group-item">Enjoy the peaceful atmosphere of Bao Loc</li>
+        <li class="list-group-item">Tham quan các điểm đến đặc biệt: Chùa Di Đà, Thánh đường Giáo xứ Thánh Mẫu,…</li>
+        <li class="list-group-item">Trải nghiệm chèo ván SUP tại khu camping</li>
+        <li class="list-group-item">Ghé thăm đồi chè bạt ngàn</li>
       </ul>
     </div>
   </div>
@@ -85,23 +83,30 @@ Thông qua các hoạt động hỗ trợ thiết thực như đào tạo kỹ n
   <ol class="list-group list-group-numbered">
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">Subheading</div>
-      Cras justo odio
+      <div class="fw-bold">Tiếng Anh</div>
+      Tiếng Anh cơ bản cho lớp 1,2,3
     </div>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">Subheading</div>
-      Cras justo odio
+      <div class="fw-bold">Hướng nghiệp</div>
+      Hướng nghiệp cho học sinh lớp 12
     </div>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">Subheading</div>
-      Cras justo odio
+      <div class="fw-bold">Giáo dục giới tính</div>
+      Kiến thức giáo dục giới tính cho học sinh lớp 9
     </div>
   </li>
 </ol> </div>
+
+<div className="row mt-5">
+<h2 className="text-center mb-3">Chi phí</h2>
+  <p>
+    
+  </p>
+</div>
   
 
   
