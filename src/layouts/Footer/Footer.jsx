@@ -34,7 +34,7 @@ const Footer = () => {
 
   const second_list = [
     { 
-      redirect: "https://www.facebook.com/nangtamsuckhoesinhvienViet", 
+      redirect: "https://www.facebook.com/profile.php?id=61552680084970", 
       content:"Fanpage"
     }, 
     { 
