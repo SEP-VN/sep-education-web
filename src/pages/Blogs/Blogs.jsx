@@ -7,6 +7,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { Link } from 'react-router-dom';
+
 import "./BlogsStyle.css"
 
 
@@ -33,7 +34,7 @@ const Blogs = () => {
   return (
     
     <main>
-      <Container  sx={{ py: 8 }} maxWidth="lg">
+      <Container  sx={{ py: 8, width: '70%' }} maxWidth="lg">
         {/* End hero unit */}
         <Grid container spacing={4}>
           {blogs.map((blog) => (

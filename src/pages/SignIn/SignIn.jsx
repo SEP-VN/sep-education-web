@@ -17,7 +17,7 @@ const SignIn = () => {
   return (
     <section class="">
       {/* <!-- Jumbotron --> */}
-      <div class="px-4 py-5 px-md-5 text-center text-lg-start" style={{ backgroundColor: 'hsl(0, 0%, 96%)' }}>
+      <div class="py-5 text-center text-lg-start" style={{ backgroundColor: 'hsl(0, 0%, 96%)',  padding: 0 }}>
         <div class="container">
           <div class="row gx-lg-5 align-items-center">
             <div class="col-lg-6 mb-5 mb-lg-0">
@@ -32,7 +32,7 @@ const SignIn = () => {
             </div>
 
             <div class="col-lg-6 mb-5 mb-lg-0">
-              <div class="card">
+              <div class="card" style={{ padding: 0 }}>
                 <div class="card-body py-5 px-md-5">
                   <form onSubmit={handleSubmit}>
                     {/* <!-- Name input --> */}
