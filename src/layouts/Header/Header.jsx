@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation  } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 
 const Header = () => {
@@ -8,16 +8,18 @@ const Header = () => {
   const [changeStatus, setChangeState ]= useState(false)
  
   const [isCollapsed, setIsCollapsed] = useState(true); 
-  const [activeItem, setActiveItem] = useState('Trang chủ');
+  const [currentPathname, setCurrentPathname] = useState("");
+  const location = useLocation();
+
+  useEffect(() => {
+    setCurrentPathname(location.pathname);
+  }, [location]);
+
 
   const toggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
   };
 
-  const handleItemClick = (itemName) => {
-    setActiveItem(itemName);
-    toggleCollapse(); // Close the menu on item click
-  };
 
 
   const handleLogout =()=>{
@@ -57,47 +59,42 @@ const Header = () => {
         style={{ justifyContent: "space-between" }}
       >
         <ul class="navbar-nav mr-auto">
-          <li className={`nav-item ${activeItem === 'Trang chủ' ? 'active' : ''}`}>
-            <Link
-              to="/"
-              className="nav-link text-header mr-2"
-              onClick={() => handleItemClick('Trang chủ')}
-            >
+        <li className={`nav-item ${currentPathname === "/" ? "active" : ""}`}>
+            <Link to="/" className="nav-link text-header mr-2">
               Trang chủ
             </Link>
           </li>
-          <li className={`nav-item ${activeItem === 'Du lịch tình nguyện' ? 'active' : ''}`}>
+          <li className={`nav-item ${currentPathname === "/voluntary-tourism" ? "active" : ""}`}>
             <Link 
               to="/voluntary-tourism" 
               class="nav-link text-header mr-2"  
-              onClick={() => handleItemClick('Du lịch tình nguyện')}
+              
             >
               Du lịch tình nguyện
             </Link>
           </li>
-          <li className={`nav-item ${activeItem === 'Đối tác du lịch' ? 'active' : ''}`}>
+          <li className={`nav-item ${currentPathname === "/travel-partner" ? "active" : ""}`}>
             <Link 
               to="/travel-partner" 
               class="nav-link text-header mr-2"  
-              onClick={() => handleItemClick('Đối tác du lịch')}
             >
               Đối tác du lịch
             </Link>
           </li>
-          <li className={`nav-item ${activeItem === 'Liên hệ' ? 'active' : ''}`}>
+          <li className={`nav-item ${currentPathname === "/contact" ? "active" : ""}`}>
             <Link 
               to="/contact" 
               class="nav-link text-header mr-2"  
-              onClick={() => handleItemClick('Liên hệ')}
+           
             >
               Liên hệ
             </Link>
           </li>
-          <li className={`nav-item ${activeItem === 'Blogs' ? 'active' : ''}`}>
+          <li className={`nav-item ${currentPathname === "/blogs" ? "active" : ""}`}>
             <Link 
               to="/blogs" 
               class="nav-link text-header mr-2"  
-              onClick={() => handleItemClick('Blogs')}
+      
             >
               Blogs
             </Link>
