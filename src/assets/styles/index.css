@@ -327,7 +327,7 @@ p {
 }
 
 a:link {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 a:visited {

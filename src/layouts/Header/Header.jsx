@@ -93,6 +93,15 @@ const Header = () => {
               Liên hệ
             </Link>
           </li>
+          <li className={`nav-item ${activeItem === 'Blogs' ? 'active' : ''}`}>
+            <Link 
+              to="/blogs" 
+              class="nav-link text-header mr-2"  
+              onClick={() => handleItemClick('Blogs')}
+            >
+              Blogs
+            </Link>
+          </li>
           <li class="nav-item">
             <a rel="noreferrer" target="_blank" class="nav-link text-header mr-2" href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAACzTRwNUNlhMR1NPV0I0NFdRNFY1OVBUSlRUMjBPTS4u" onClick={toggleCollapse}>
               Feedback cho dự án

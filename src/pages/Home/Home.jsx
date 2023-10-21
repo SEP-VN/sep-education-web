@@ -1,6 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import bannerProject from "../../assets/images/banner/banner_project.png";
+import bannerProject2 from "../../assets/images/banner/banner_project_2.png";
+import bannerProject3 from "../../assets/images/banner/banner_project_3.png";
+import duyimg from "../../assets/images/teams/duy.jpg";
+import vyimg from "../../assets/images/teams/vy.jpg";
+import phuimg from "../../assets/images/teams/phu.jpg";
+import linhimg from "../../assets/images/teams/linh.jpg";
+import veeimg from "../../assets/images/teams/vee.jpg";
+import dungimg from "../../assets/images/teams/dung.jpg"; 
+import "./HomeStyle.css"
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -24,11 +33,11 @@ const Home = () => {
     },
     {
       id: 1,
-      imageUrl: bannerProject,
+      imageUrl: bannerProject2,
     },
     {
       id: 2,
-      imageUrl: bannerProject,
+      imageUrl: bannerProject3,
     },
   ];
 console.log(`${process.env.REACT_APP_API_KEY}${process.env.REACT_APP_API_CUSTOMER}`)
@@ -75,10 +84,10 @@ console.log(`${process.env.REACT_APP_API_KEY}${process.env.REACT_APP_API_CUSTOME
             >
               <div className="image-container" >
                 <img
-                  className="d-block w-100 h-100 slide-image"
+                  className="d-block w-100 slide-image"
                   src={slide.imageUrl}
                   alt={`Slide ${slide.id}`}
-                  style={{objectFit: "cover" }}
+                  style={{objectFit: "cover", height: "600px" }}
                 />
 
                 <div className="overlay"></div>
@@ -126,7 +135,7 @@ console.log(`${process.env.REACT_APP_API_KEY}${process.env.REACT_APP_API_CUSTOME
       </div>
 
 
-<section class="py-3 py-md-5">
+<section class="mt-5 py-3 py-md-5" >
   <div class="container-fluid" style={{ maxWidth: '80%' }}>
     <div class="row gy-4 gy-md-4 gy-lg-0 align-items-lg-center">
       <div class="col-12 col-lg-6 col-xl-5">
@@ -135,14 +144,166 @@ console.log(`${process.env.REACT_APP_API_KEY}${process.env.REACT_APP_API_CUSTOME
       <div class="col-12 col-lg-6 col-xl-7">
         <div class="row justify-content-xl-center">
           <div class="col-12 col-xl-11">
-            <h2 class="mb-3">SEP là ai ?</h2>
-            <p class="mb-5">SEP (Share Edu Project) - mô hình tình nguyện tích hợp du lịch với mong muốn mang tri thức về các vùng nông thôn. Trong dự án này, các tình nguyện viên trẻ trong độ tuổi từ 16-25 đến từ thành thị sẽ tham gia để chia sẻ kiến thức và trải nghiệm du lịch bản địa với các bạn học sinh tại vùng. Các tình nguyện viên sẽ được đào tạo trước khi tham gia dạy học, và giáo trình dạy học sẽ được biên soạn bởi các chuyên gia, phù hợp với từng độ tuổi và trình độ của học sinh ở vùng nông thôn.</p>
+            <h1 class="mb-3">S.E.P là ai ?</h1>
+            <p class="text-secondary mb-5 lead fs-5">S.E.P (Share Edu Project) - mô hình tình nguyện tích hợp du lịch với mong muốn mang tri thức về các vùng nông thôn. Trong dự án này, các tình nguyện viên trẻ trong độ tuổi từ 16-25 đến từ thành thị sẽ tham gia để chia sẻ kiến thức và trải nghiệm du lịch bản địa với các bạn học sinh tại vùng. Các tình nguyện viên sẽ được đào tạo trước khi tham gia dạy học, và giáo trình dạy học sẽ được biên soạn bởi các chuyên gia, phù hợp với từng độ tuổi và trình độ của học sinh ở vùng nông thôn.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<hr class="mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
+
+<div class="container-fluid" style={{ maxWidth: '70%' }}>
+                    <div class="row">
+                        <div class="heading-title text-center">
+                            <h1>Đội ngũ của chúng tôi </h1>
+                            <p class="mb-3 mt-3 text-center lead fs-4" style={{color: '#ffa012' }}>Tình nguyện  |  Trãi nghiệm  | Bền Vững </p>
+                            <hr class="w-50 mx-auto mb-2 mb-xl-9 border-dark-subtle"/>
+                        </div>
+                        
+                        <div className="col-md-4 col-sm-4 mb-3">
+                        <div className="team-member">
+                            <div className="team-img">
+                                <img
+                                    src={vyimg}
+                                    alt="team member"
+                                    className="img-responsive"
+                                    style={{ width: '100%', height: '350px', objectFit: 'cover' }}
+                                />
+                            </div>
+                            <div className="team-hover">
+                                <div className="desk">
+                                    <h4>Xin chào !</h4>
+                                    <p>Tôi là Vy, Founder của dự án.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="team-title">
+                            <h5>Vy NGUYEN</h5>
+                            <span>Founder</span>
+                        </div>
+                    </div>
+
+
+                    <div className="col-md-4 col-sm-4 mb-3">
+                        <div className="team-member">
+                            <div className="team-img">
+                                <img
+                                    src={dungimg}
+                                    alt="team member"
+                                    className="img-responsive"
+                                    style={{ width: '100%', height: '350px', objectFit: 'cover' }}
+                                />
+                            </div>
+                            <div className="team-hover">
+                                <div className="desk">
+                                    <h4>Xin chào !</h4>
+                                    <p>Tôi là Dung, Project Manager của dự án.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="team-title">
+                            <h5>Dung TRAN</h5>
+                            <span>Project Manager</span>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-4 mb-3">
+                        <div className="team-member">
+                            <div className="team-img">
+                                <img
+                                    src={phuimg}
+                                    alt="team member"
+                                    className="img-responsive"
+                                    style={{ width: '100%', height: '350px', objectFit: 'cover' }}
+                                />
+                            </div>
+                            <div className="team-hover">
+                                <div className="desk">
+                                    <h4>Xin chào !</h4>
+                                    <p>Tôi là Phú, Business Development Manager của dự án.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="team-title">
+                            <h5>Phu NGUYEN</h5>
+                            <span>Business Development Manager</span>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-4 mb-3">
+                        <div className="team-member">
+                            <div className="team-img">
+                                <img
+                                    src={duyimg}
+                                    alt="team member"
+                                    className="img-responsive"
+                                    style={{ width: '100%', height: '350px', objectFit: 'cover' }}
+                                />
+                            </div>
+                            <div className="team-hover">
+                                <div className="desk">
+                                    <h4>Xin chào !</h4>
+                                    <p>Tôi là Duy, Software Engineer của dự án.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="team-title">
+                            <h5>Duy NGUYEN</h5>
+                            <span>Software Engineer</span>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-4 mb-3">
+                        <div className="team-member">
+                            <div className="team-img">
+                                <img
+                                    src={veeimg}
+                                    alt="team member"
+                                    className="img-responsive"
+                                    style={{ width: '100%', height: '350px', objectFit: 'cover' }}
+                                />
+                            </div>
+                            <div className="team-hover">
+                                <div className="desk">
+                                    <h4>Xin chào !</h4>
+                                    <p>Tôi là Vee, Expertise Program Executive của dự án.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="team-title">
+                            <h5>Vee NGUYEN</h5>
+                            <span>Expertise Program Executive</span>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-4 mb-3">
+                        <div className="team-member">
+                            <div className="team-img">
+                                <img
+                                    src={linhimg}
+                                    alt="team member"
+                                    className="img-responsive"
+                                    style={{ width: '100%', height: '350px', objectFit: 'cover' }}
+                                />
+                            </div>
+                            <div className="team-hover">
+                                <div className="desk">
+                                    <h4>Xin chào !</h4>
+                                    <p>Tôi là Linh, Marketing Manager của dự án.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="team-title">
+                            <h5>Linh DANG</h5>
+                            <span>Marketing Manager</span>
+                        </div>
+                    </div>
+
+                    </div>
+
+                </div>
+
+
+
     </div>
   );
 };

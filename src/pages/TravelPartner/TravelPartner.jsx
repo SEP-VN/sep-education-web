@@ -17,7 +17,7 @@ const TravelPartner = () => {
         <div class="container-fluid px-1 py-5 mx-auto">
         <div class="row d-flex justify-content-center">
             <div class="col-xl-8 col-lg-9 col-md-10 col-11 text-center">
-                <h3>Đăng kí trở thành đối tác du lịch của SEP</h3>
+                <h3>Đăng kí trở thành đối tác du lịch của S.E.P</h3>
                 <div class="card">
                     <h5 class="text-center mb-4">Thông tin của công ty du lịch</h5>
                     <form class="form-card" onsubmit="event.preventDefault()">
