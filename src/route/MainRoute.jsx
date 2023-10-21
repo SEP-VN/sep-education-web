@@ -21,6 +21,7 @@ const MainRoute = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path="/tour-detail" element={<TourDetail />} />
       <Route path="/blogs" element={<Blogs />} />
+      <Route path="/*" element={<Home />} />
       </Routes>
     </div>
   );
