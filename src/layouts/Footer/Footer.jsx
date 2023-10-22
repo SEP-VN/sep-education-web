@@ -38,7 +38,7 @@ const Footer = () => {
       content:"Fanpage"
     }, 
     { 
-      redirect: "", 
+      redirect: "mailto:seprojectvietnam@gmail.com", 
       content:"Email"
     }
   ];
