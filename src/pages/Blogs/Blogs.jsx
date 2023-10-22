@@ -7,6 +7,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { Link } from 'react-router-dom';
+import bannerProject from "../../assets/images/banner/banner_project.png";
 
 import "./BlogsStyle.css"
 
@@ -15,16 +16,16 @@ import "./BlogsStyle.css"
 
 const blogs = [
   {
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir8SJ71eIUnxW9zhcoDjtRDhMQIGp9vUdPS_TmMh1qzzbLwsVrtkRusODm8qMICljYPMdR7lDtXc7p9djZNLbpYo7zd3vu_NJcd1S3CYpviDLXH4Kx5td7CzIk5PAM50pXXGWo7j3haRbZJKoylnp4qrAUXUGLuRM6TOBUofT-KorznY8xVAbF3_jj5A/w668-h254/banner_project.png",
+    image: bannerProject,
     name:"Giới thiệu về dự án",
     description:"Bài blog đầu tiên để giới thiệu về dự án S.E.P",
-    link: "https://sepvn.blogspot.com/2023/10/blog-post.html"
+    link: "https://seprojectvietnam.blogspot.com/2023/10/gioi-thieu-ve-sep.html"
   },
   {
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir8SJ71eIUnxW9zhcoDjtRDhMQIGp9vUdPS_TmMh1qzzbLwsVrtkRusODm8qMICljYPMdR7lDtXc7p9djZNLbpYo7zd3vu_NJcd1S3CYpviDLXH4Kx5td7CzIk5PAM50pXXGWo7j3haRbZJKoylnp4qrAUXUGLuRM6TOBUofT-KorznY8xVAbF3_jj5A/w668-h254/banner_project.png",
+    image: bannerProject,
     name:"Giới thiệu về dự án",
     description:"Bài blog đầu tiên để giới thiệu về dự án S.E.P",
-    link: "https://sepvn.blogspot.com/2023/10/blog-post.html"
+    link: "https://seprojectvietnam.blogspot.com/2023/10/gioi-thieu-ve-sep.html"
   },
 ]
 
