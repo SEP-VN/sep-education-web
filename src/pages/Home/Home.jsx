@@ -40,7 +40,7 @@ const Home = () => {
       imageUrl: bannerProject3,
     },
   ];
-console.log(`${process.env.REACT_APP_API_KEY}${process.env.REACT_APP_API_CUSTOMER}`)
+console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOMER}`)
   const items = Array.from({ length: slides.length }, (_, i) => (
     <button
       className={`mx-2 ${i === activeIndex ? "bg-white-80" : "bg-white-50"}`}

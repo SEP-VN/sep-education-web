@@ -2,13 +2,31 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { useNavigate } from 'react-router-dom';
+import { Register } from "../../api/Authenticate";
+import { useState } from 'react';
 
 const SignIn = () => {
   const navigate = useNavigate();
+  const [inputName, setInputName] = useState(null);
+  const [inputPhoneNumber, setInputPhoneNumber] = useState(null);
+  const [inputEmail, setInputEmail] = useState(null);
+
+  const handleNameChange = (event) => {
+    setInputName(event.target.value);
+  };
+
+  const handlePhoneNumberChange = (event) => {
+    setInputPhoneNumber(event.target.value);
+  };
+
+  const handleEmailChange = (event) => {
+    setInputEmail(event.target.value);
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
-    
-    // Add any form processing logic here.
+     // Make the Axios call and store the customer ID
+      Register(inputName, inputPhoneNumber, inputEmail)
     
     // Redirect to the "/tour-information" page
     navigate('/tour-information');
@@ -36,19 +54,40 @@ const SignIn = () => {
                 <div class="card-body py-5 px-md-5">
                   <form onSubmit={handleSubmit}>
                     {/* <!-- Name input --> */}
-                    <div class="form-outline mb-4">
-                      <input type="email" id="form3Example3" class="form-control" placeholder="Họ và tên"/>
-                    </div>
+                    <div className="form-outline mb-4">
+                    <input
+                      type="text" // Change the input type to text
+                      id="formName"
+                      className="form-control"
+                      placeholder="Họ và tên"
+                      value={inputName} // Bind value to the state
+                      onChange={handleNameChange} // Handle input changes
+                    />
+                  </div>
 
                     {/* <!-- Phone number input --> */}
-                    <div class="form-outline mb-4">
-                      <input type="email" id="form3Example3" class="form-control" placeholder="Số điện thoại" />                     
-                    </div>
+                    <div className="form-outline mb-4">
+                    <input
+                      type="text" // Change the input type to text
+                      id="formPhoneNumber"
+                      className="form-control"
+                      placeholder="Số điện thoại"
+                      value={inputPhoneNumber} // Bind value to the state
+                      onChange={handlePhoneNumberChange} // Handle input changes
+                    />
+                  </div>
 
                     {/* <!-- Email input --> */}
-                    <div class="form-outline mb-4">
-                      <input type="password" id="form3Example4" class="form-control" placeholder="Email"/>
-                    </div>
+                    <div className="form-outline mb-4">
+                    <input
+                      type="email" // You can keep this as email
+                      id="formEmail"
+                      className="form-control"
+                      placeholder="Email"
+                      value={inputEmail} // Bind value to the state
+                      onChange={handleEmailChange} // Handle input changes
+                    />
+                  </div>
 
                     {/* <!-- Checkbox --> */}
                     <div class="form-check d-flex justify-content-center mb-4">
