@@ -64,16 +64,16 @@ Thông qua các hoạt động hỗ trợ thiết thực như đào tạo kỹ n
       <h4>Điểm nổi bật của chuyến đi</h4>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">Tổ chức các lớp học cộng đồng cho trẻ em địa phương</li>
-        <li class="list-group-item">Tìm hiểu các nét văn hóa đặc sắc tại Bảo Lộc</li>
-        <li class="list-group-item">Phát triển mô hình và du lịch cộng đồng tại Bảo Lộc – Lâm Đồng</li>
+        <li class="list-group-item">Tìm hiểu các nét văn hóa đặc sắc tại Tà Lài</li>
+        <li class="list-group-item">Phát triển mô hình và du lịch cộng đồng tại làng Tà Lài</li>
       </ul>
     </div>
     <div className="col-md-6">
       <h4>Điểm nổi bật của điểm đến</h4>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">Tham quan các điểm đến đặc biệt: Chùa Di Đà, Thánh đường Giáo xứ Thánh Mẫu,…</li>
-        <li class="list-group-item">Trải nghiệm chèo ván SUP tại khu camping</li>
-        <li class="list-group-item">Ghé thăm đồi chè bạt ngàn</li>
+        <li class="list-group-item">Tham quan các điểm đến đặc biệt: đi bộ lên Đồi Xanh, tham quan vườn ca cao, vườn cà phê,…</li>
+        <li class="list-group-item">Chèo thuyền kayak trên sông</li>
+        <li class="list-group-item">Trekking tại Nam Cát Tiên</li>
       </ul>
     </div>
   </div>
@@ -119,6 +119,11 @@ Thông qua các hoạt động hỗ trợ thiết thực như đào tạo kỹ n
                         <span class="d-block fs-5 fw-bold">Ngày 2</span>
                         <span class="small">T3 - 24/10/2023</span>
                     </button>
+
+                    <button class="nav-link px-4 text-start" id="d3-tab" data-bs-toggle="tab" data-bs-target="#day3" type="button" role="tab" aria-controls="day3" aria-selected="false" tabindex="-1">
+                        <span class="d-block fs-5 fw-bold">Ngày 3</span>
+                        <span class="small">T4 - 25/10/2023</span>
+                    </button>
                 </div>
             </div>
             
@@ -127,43 +132,73 @@ Thông qua các hoạt động hỗ trợ thiết thực như đào tạo kỹ n
                     <div class="tab-pane fade active show" id="day1" role="tabpanel" aria-labelledby="d1-tab">
                         <ul class="pt-4 list-unstyled mb-0">
                             <li class="d-flex flex-column flex-md-row py-4">
-                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">9:00
-                                    AM - 10:00 AM</span>
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">06:30</span>
                                 <div class="flex-grow-1 ps-4 border-start border-3">
                                     <h5>Khởi hành, ăn sáng trên xe</h5>
                                   
                                 </div>
                             </li>
                             <li class="d-flex flex-column flex-md-row py-4">
-                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">10:00
-                                    AM - 11:00 AM</span>
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">09:30</span>
                                 <div class="flex-grow-1 ps-4 border-start border-3">
                                     <h5>Tới Tà Lài, nhận phòng</h5>
                                     
                                 </div>
                             </li>
                             <li class="d-flex flex-column flex-md-row py-4">
-                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">11:00
-                                    AM - 12:30 PM</span>
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">10:00
+                                     - 10:45</span>
                                 <div class="flex-grow-1 ps-4 border-start border-3">
                                     <h5>Họp BTC và TNV về lịch trình giảng dạy</h5>
                                 
                                 </div>
                             </li>
                             <li class="d-flex flex-column flex-md-row py-4">
-                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:30
-                                    PM - 1:30 PM</span>
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">10:45
+                                     - 11:30</span>
                                 <div class="flex-grow-1 ps-4 border-start border-3">
                                     <h5>Tham quan nhà truyền thống trong làng / Tham quan làng (đi bộ vào làng, tham quan đập tràn, khu vực giảng dạy)</h5>
                                   
                                 </div>
                             </li>
                             <li class="d-flex flex-column flex-md-row py-4">
-                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:30
-                                    PM - 3:30 PM</span>
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">11:45
+                                    - 12:45 </span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Ăn trưa</h5>
+                                  
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">14:00
+                                     - 16:00 </span>
                                 <div class="flex-grow-1 ps-4 border-start border-3">
                                     <h5>Đi tham quan cánh đồng vườn dầu (di chuyển 1h30’, tham quan 30’)</h5>
                                   
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">17:00
+                                     - 17:45 </span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Ăn chiều</h5>
+                                
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">17:45
+                                     - 20:30 </span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Chuẩn bị lớp học và dạy học</h5>
+                                
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">20:30
+                                    </span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Dọn dẹp, họp tổng kết ngày 1</h5>
+                                
                                 </div>
                             </li>
                         </ul>
@@ -171,50 +206,163 @@ Thông qua các hoạt động hỗ trợ thiết thực như đào tạo kỹ n
                     <div class="tab-pane fade" id="day2" role="tabpanel" aria-labelledby="d2-tab">
                         <ul class="pt-4 list-unstyled mb-0">
                         <li class="d-flex flex-column flex-md-row py-4">
-                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">9:00
-                                    AM - 10:00 AM</span>
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">06:00</span>
                                 <div class="flex-grow-1 ps-4 border-start border-3">
-                                    <h5>Khởi hành, ăn sáng trên xe</h5>
+                                    <h5>Ăn sáng</h5>
                                   
                                 </div>
                             </li>
                             <li class="d-flex flex-column flex-md-row py-4">
-                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">10:00
-                                    AM - 11:00 AM</span>
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">07:30 - 09:30</span>
                                 <div class="flex-grow-1 ps-4 border-start border-3">
-                                    <h5>Tới Tà Lài, nhận phòng</h5>
+                                    <h5>Dạy học</h5>
+                                    
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">09:30 - 10:00</span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Dọn dẹp</h5>
+                                    
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">10:00 - 11:00</span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Họp bàn cho buổi event mai</h5>
                                     
                                 </div>
                             </li>
                             <li class="d-flex flex-column flex-md-row py-4">
                                 <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">11:00
-                                    AM - 12:30 PM</span>
+                                     - 12:00</span>
                                 <div class="flex-grow-1 ps-4 border-start border-3">
-                                    <h5>Họp BTC và TNV về lịch trình giảng dạy</h5>
+                                    <h5>Di chuyển qua NCT</h5>
+                                
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:00
+                                     - 12:45</span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Picnic ở NCT </h5>
+                                  
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">13:30
+                                    - 16:00 </span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Trekking tại NCT</h5>
+                                  
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">17:00
+                                     - 17:30 </span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Di chuyển qua nhà Văn hóa để đốt lửa trại</h5>
+                                  
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">18:00
+                                     - 21:00 </span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Lửa trại guitar và deep talk</h5>
+                                
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">21:00
+                                     - 22:00 </span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Dọn dẹp</h5>
+                                
+                                </div>
+                            </li>
+                            
+              
+                       
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="day3" role="tabpanel" aria-labelledby="d3-tab">
+                        <ul class="pt-4 list-unstyled mb-0">
+                        <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">06:00 - 07:00</span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Ăn sáng</h5>
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">07:00 - 07:30</span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Đến nơi tổ chức event và chuẩn bị</h5>
+                                    
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">07:45 - 10:00</span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Event</h5>
+                                    
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">10:00 - 10:30</span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Dọn dẹp</h5>
+                                    
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">10:30
+                                     - 12:30</span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Học dệt bên nhà sàn </h5>
                                 
                                 </div>
                             </li>
                             <li class="d-flex flex-column flex-md-row py-4">
                                 <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:30
-                                    PM - 1:30 PM</span>
+                                     - 13:30</span>
                                 <div class="flex-grow-1 ps-4 border-start border-3">
-                                    <h5>Tham quan nhà truyền thống trong làng / Tham quan làng (đi bộ vào làng, tham quan đập tràn, khu vực giảng dạy)</h5>
+                                    <h5>Ăn trưa và khởi hành về SG </h5>
                                   
                                 </div>
                             </li>
                             <li class="d-flex flex-column flex-md-row py-4">
-                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:30
-                                    PM - 3:30 PM</span>
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">14:40
+                                    - 15:30 </span>
                                 <div class="flex-grow-1 ps-4 border-start border-3">
-                                    <h5>Đi tham quan cánh đồng vườn dầu (di chuyển 1h30’, tham quan 30’)</h5>
+                                    <h5>Tham quan di tích lịch sử Tượng chiến thắng La Ngà và ngắm nhìn bè cá La Ngà </h5>
                                   
                                 </div>
                             </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">16:15
+                                     - 17:00 </span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Tham quan địa danh Đức Mẹ Núi Cúi</h5>
+                                  
+                                </div>
+                            </li>
+                            <li class="d-flex flex-column flex-md-row py-4">
+                                <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">17:00
+                                     - 19:00 </span>
+                                <div class="flex-grow-1 ps-4 border-start border-3">
+                                    <h5>Trở về Hồ Chí Minh</h5>
+                                
+                                </div>
+                            </li>
+            
+                            
               
                        
                         </ul>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>

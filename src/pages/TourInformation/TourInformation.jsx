@@ -3,6 +3,7 @@ import TourInformationImage from "../../assets/images/tour_information/education
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { TourRegister } from "../../api/TourRegistration";
+import ModalRegistrationSuccessful from "../../components/ModalRegistrationSuccessful";
 
 const TourInformation = () => {
   const navigate = useNavigate();
@@ -10,6 +11,8 @@ const TourInformation = () => {
   const [selectedDate, setSelectedDate] = useState(''); // State for the "Thời gian" dropdown
   const [selectedSubject, setSelectedSubject] = useState(''); // State for the "Môn giảng dạy" dropdown
   const [numberOfParticipants, setNumberOfParticipants] = useState(''); // State for the number input field
+
+  const [showModal, setShowModal] = useState(false);
 
   const places = [
     "Tà Lài",
@@ -33,9 +36,10 @@ const TourInformation = () => {
     event.preventDefault();
      // Make the Axios call and store the customer ID
       TourRegister(selectedPlace, selectedDate, selectedSubject, numberOfParticipants)
+      setShowModal(!showModal)
     
     // Redirect to the "/tour-information" page
-    navigate('/');
+    // navigate('/');
   };
   return (
    
@@ -125,8 +129,9 @@ const TourInformation = () => {
                     <button type="submit" class="btn btn-primary btn-lg btn-block mb-4">
                       Cùng đi thôi !
                     </button>
-
+                    
                   </form>
+                  <ModalRegistrationSuccessful showModal={showModal} setShowModal={setShowModal}/>
                 </div>
               </div>
             </div>
