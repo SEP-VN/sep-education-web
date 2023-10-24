@@ -6,3 +6,11 @@
   .list-group-item {
     background-color: inherit; /* Replace 'your-color' with the desired background color */
   }
+
+  .nav-pills .nav-link.active {
+    background-color: #ffb03b;
+  }
+
+  .nav-pills .nav-link {
+    color: #ffb03b;
+  }
