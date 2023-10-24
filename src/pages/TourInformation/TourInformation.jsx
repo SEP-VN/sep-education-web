@@ -1,12 +1,10 @@
 
 import TourInformationImage from "../../assets/images/tour_information/educational-tour.jpg";
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { TourRegister } from "../../api/TourRegistration";
 import ModalRegistrationSuccessful from "../../components/ModalRegistrationSuccessful";
 
 const TourInformation = () => {
-  const navigate = useNavigate();
   const [selectedPlace, setSelectedPlace] = useState(''); // State for the "Địa điểm" dropdown
   const [selectedDate, setSelectedDate] = useState(''); // State for the "Thời gian" dropdown
   const [selectedSubject, setSelectedSubject] = useState(''); // State for the "Môn giảng dạy" dropdown
