@@ -1,16 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 function ModalRegistrationSuccessful({showModal, setShowModal}) {
  
 
-  const handleClick = () => {
-    setShowModal(true);
-  };
 
-  const handleClose = () => {
-    setShowModal(false);
-  };
 
 
 
