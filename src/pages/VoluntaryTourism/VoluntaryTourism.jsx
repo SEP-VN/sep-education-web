@@ -17,7 +17,7 @@ const tours = [
   {
     image: ta_lai_tour,
     name:"DU LỊCH TÌNH NGUYỆN LÀNG TÀ LÀI",
-    description:" Du lịch tình nguyện tại làng Tà Lài nhằm hỗ trợ phát triển giáo dục, thúc đẩy phát triển mô hình du lịch cộng đồng tại nơi đây và quảng bá các nghề truyền thống địa phương. Với mục đích phát triển sinh kế cho địa phương đi liền quảng bá du lịch nơi đây. Dự án mang lại cho địa phương cách khai thác các nguồn lực về du lịch còn chưa được khai thác."
+    description:" Du lịch tình nguyện tại làng Tà Lài nhằm hỗ trợ phát triển giáo dục, thúc đẩy phát triển mô hình du lịch cộng đồng tại nơi đây và quảng bá các nghề truyền thống địa phương,..."
   },
   // {
   //   image: "https://dulichmedia.dalat.vn/Images/DNI/superadminportal.dni/Tin%20t%E1%BB%A9c/N%C4%83m2021/Th%C3%A1ng3/42talai4_637523557206278207.jpg",
@@ -42,7 +42,7 @@ const VoluntaryTourism = () => {
   return (
     
     <main>
-      <Container sx={{ py: 8, width: '70%' }} maxWidth="lg">
+      <Container sx={{ py: 8, width: '80%' }} maxWidth="lg">
         {/* End hero unit */}
         <Grid container spacing={4}>
           {tours.map((tour) => (

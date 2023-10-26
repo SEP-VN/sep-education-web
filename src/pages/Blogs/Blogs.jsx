@@ -20,19 +20,19 @@ const blogs = [
   {
     image: gioi_thieu,
     name:"Sứ mệnh của S.E.P (Share Education Project)",
-    description:"S.E.P (Share Education Project) mang trong mình sứ mệnh và mong muốn góp phần giải quyết vấn đề thiếu cân bằng giáo dục giữa thành thị và nông thôn. Câu chuyện mở đầu của chúng tôi xuất phát phát hiện của các thành viên rằng giáo dục của chúng ta ngày nay không có sự cân bằng phát triển giữa thành thị và nông thôn...",
+    description:"S.E.P (Share Education Project) mang trong mình sứ mệnh và mong muốn góp phần giải quyết vấn đề thiếu cân bằng giáo dục giữa thành thị và nông thôn...",
     link: "https://seprojectvietnam.blogspot.com/2023/10/su-menh-cua-sep.html"
   },
   {
     image: nong_thon,
     name:"Thách thức và Cơ hội trong Xây dựng Hệ thống Giáo dục Công Bằng và Hiệu Quả tại Việt Nam",
-    description:"Giáo dục là yếu tố quan trọng để xây dựng tương lai của một quốc gia, và hệ thống giáo dục Việt Nam không phải là một ngoại lệ. Trên cơ sở dữ liệu từ báo cáo tóm tắt Giáo dục Việt Nam 2022 của UNICEF, chúng ta có thể nhận thấy những thách thức và cơ hội đang tồn tại trong hệ thống giáo dục của đất nước chúng ta...",
+    description:"Giáo dục là yếu tố quan trọng để xây dựng tương lai của một quốc gia, và hệ thống giáo dục Việt Nam không phải là một ngoại lệ...",
     link: "https://seprojectvietnam.blogspot.com/2023/10/thach-thuc-va-co-hoi-trong-xay-dung-he.html"
   },
   {
     image: ta_lai,
     name:"Khám Phá Tà Lài - Thiên Đàng của Văn Hóa và Thiên Nhiên Hoang Sơ",
-    description:"Khi bạn tìm kiếm một điểm đến đầy sự kết hợp giữa thiên nhiên hoang sơ và văn hóa độc đáo, Tà Lài, xã nằm sâu trong lòng tỉnh Đồng Nai, chắc chắn sẽ là sự lựa chọn đáng cân nhắc. Tà Lài mang đến một trải nghiệm du lịch phong cách với những danh lam thắng cảnh thiên nhiên đa dạng và những trải nghiệm văn hóa độc đáo...",
+    description:"Khi bạn tìm kiếm một điểm đến đầy sự kết hợp giữa thiên nhiên hoang sơ và văn hóa độc đáo, Tà Lài, xã nằm sâu trong lòng tỉnh Đồng Nai, chắc chắn sẽ là sự lựa chọn đáng cân nhắc...",
     link: "https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-ta-lai-thien-ang-cua.html"
   },
 ]
@@ -43,7 +43,7 @@ const Blogs = () => {
   return (
     
     <main>
-      <Container  sx={{ py: 8, width: '70%' }} maxWidth="lg">
+      <Container  sx={{ py: 8, width: '80%' }} maxWidth="lg">
         {/* End hero unit */}
         <Grid container spacing={4}>
           {blogs.map((blog) => (
