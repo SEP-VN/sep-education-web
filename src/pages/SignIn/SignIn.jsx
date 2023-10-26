@@ -39,13 +39,13 @@ const SignIn = () => {
         <div class="container">
           <div class="row gx-lg-5 align-items-center">
             <div class="col-lg-6 mb-5 mb-lg-0">
-              <h1 class="my-5 fw-bold ls-tight"> 
+              <h1 class="my-4 fw-bold ls-tight"> 
               Đăng kí trở thành 1 tình nguyện viên vì giáo dục<hr/>
-              <span style={{ color: '#ffb03b' }}>S.E.P</span>
+              <span style={{ color: '#ffb03b' }}>Share Education Project</span>
               </h1>
               
               <p style={{ color: 'hsl(217, 10%, 50.8%)' }}>
-              S.E.P (Share Edu Project) - mô hình tình nguyện tích hợp du lịch với mong muốn mang tri thức về các vùng nông thôn. Trong dự án này, các tình nguyện viên trẻ trong độ tuổi từ 16-25 đến từ thành thị sẽ tham gia để chia sẻ kiến thức và trải nghiệm du lịch bản địa với các bạn học sinh tại vùng. Các tình nguyện viên sẽ được đào tạo trước khi tham gia dạy học, và giáo trình dạy học sẽ được biên soạn bởi các chuyên gia, phù hợp với từng độ tuổi và trình độ của học sinh ở vùng nông thôn.
+              S.E.P (Share Education Project) - mô hình tình nguyện tích hợp du lịch với mong muốn mang tri thức về các vùng nông thôn. Trong dự án này, các tình nguyện viên trẻ trong độ tuổi từ 18-35 đến từ thành thị sẽ tham gia để chia sẻ kiến thức và trải nghiệm du lịch bản địa với các bạn học sinh tại vùng. Các tình nguyện viên sẽ được đào tạo trước khi tham gia dạy học, và giáo trình dạy học sẽ được biên soạn bởi các chuyên gia, phù hợp với từng độ tuổi và trình độ của học sinh ở vùng nông thôn.
               </p>
             </div>
 

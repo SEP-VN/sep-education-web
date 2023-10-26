@@ -8,31 +8,32 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { Link } from 'react-router-dom';
+import ta_lai_tour from "../../assets/images/voluntary_tourism/ta_lai_tour.png";
 
 
 
 
 const tours = [
   {
-    image: "https://dulichmedia.dalat.vn/Images/DNI/superadminportal.dni/Tin%20t%E1%BB%A9c/N%C4%83m2021/Th%C3%A1ng3/42talai1_637523557205497056.jpg",
+    image: ta_lai_tour,
     name:"DU LỊCH TÌNH NGUYỆN LÀNG TÀ LÀI",
     description:" Du lịch tình nguyện tại làng Tà Lài nhằm hỗ trợ phát triển giáo dục, thúc đẩy phát triển mô hình du lịch cộng đồng tại nơi đây và quảng bá các nghề truyền thống địa phương. Với mục đích phát triển sinh kế cho địa phương đi liền quảng bá du lịch nơi đây. Dự án mang lại cho địa phương cách khai thác các nguồn lực về du lịch còn chưa được khai thác."
   },
-  {
-    image: "https://dulichmedia.dalat.vn/Images/DNI/superadminportal.dni/Tin%20t%E1%BB%A9c/N%C4%83m2021/Th%C3%A1ng3/42talai4_637523557206278207.jpg",
-    name:"DU LỊCH TÌNH NGUYỆN LÀNG TÀ LÀI",
-    description:" Du lịch tình nguyện tại làng Tà Lài nhằm hỗ trợ phát triển giáo dục, thúc đẩy phát triển mô hình du lịch cộng đồng tại nơi đây và quảng bá các nghề truyền thống địa phương. Với mục đích phát triển sinh kế cho địa phương đi liền quảng bá du lịch nơi đây. Dự án mang lại cho địa phương cách khai thác các nguồn lực về du lịch còn chưa được khai thác."
-  },
-  {
-    image: "https://oms.hotdeal.vn/images/editors/sources/000333275524/333275-333275-body%20(10).jpg",
-    name:"DU LỊCH TÌNH NGUYỆN LÀNG TÀ LÀI",
-    description:" Du lịch tình nguyện tại làng Tà Lài nhằm hỗ trợ phát triển giáo dục, thúc đẩy phát triển mô hình du lịch cộng đồng tại nơi đây và quảng bá các nghề truyền thống địa phương. Với mục đích phát triển sinh kế cho địa phương đi liền quảng bá du lịch nơi đây. Dự án mang lại cho địa phương cách khai thác các nguồn lực về du lịch còn chưa được khai thác."
-  },
-  {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWpQYycaUu1vqgIF-z8KnGguDE9BwGcPdAqg&usqp=CAU",
-    name:"DU LỊCH TÌNH NGUYỆN LÀNG TÀ LÀI",
-    description:" Du lịch tình nguyện tại làng Tà Lài nhằm hỗ trợ phát triển giáo dục, thúc đẩy phát triển mô hình du lịch cộng đồng tại nơi đây và quảng bá các nghề truyền thống địa phương. Với mục đích phát triển sinh kế cho địa phương đi liền quảng bá du lịch nơi đây. Dự án mang lại cho địa phương cách khai thác các nguồn lực về du lịch còn chưa được khai thác."
-  },
+  // {
+  //   image: "https://dulichmedia.dalat.vn/Images/DNI/superadminportal.dni/Tin%20t%E1%BB%A9c/N%C4%83m2021/Th%C3%A1ng3/42talai4_637523557206278207.jpg",
+  //   name:"DU LỊCH TÌNH NGUYỆN LÀNG TÀ LÀI",
+  //   description:" Du lịch tình nguyện tại làng Tà Lài nhằm hỗ trợ phát triển giáo dục, thúc đẩy phát triển mô hình du lịch cộng đồng tại nơi đây và quảng bá các nghề truyền thống địa phương. Với mục đích phát triển sinh kế cho địa phương đi liền quảng bá du lịch nơi đây. Dự án mang lại cho địa phương cách khai thác các nguồn lực về du lịch còn chưa được khai thác."
+  // },
+  // {
+  //   image: "https://oms.hotdeal.vn/images/editors/sources/000333275524/333275-333275-body%20(10).jpg",
+  //   name:"DU LỊCH TÌNH NGUYỆN LÀNG TÀ LÀI",
+  //   description:" Du lịch tình nguyện tại làng Tà Lài nhằm hỗ trợ phát triển giáo dục, thúc đẩy phát triển mô hình du lịch cộng đồng tại nơi đây và quảng bá các nghề truyền thống địa phương. Với mục đích phát triển sinh kế cho địa phương đi liền quảng bá du lịch nơi đây. Dự án mang lại cho địa phương cách khai thác các nguồn lực về du lịch còn chưa được khai thác."
+  // },
+  // {
+  //   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWpQYycaUu1vqgIF-z8KnGguDE9BwGcPdAqg&usqp=CAU",
+  //   name:"DU LỊCH TÌNH NGUYỆN LÀNG TÀ LÀI",
+  //   description:" Du lịch tình nguyện tại làng Tà Lài nhằm hỗ trợ phát triển giáo dục, thúc đẩy phát triển mô hình du lịch cộng đồng tại nơi đây và quảng bá các nghề truyền thống địa phương. Với mục đích phát triển sinh kế cho địa phương đi liền quảng bá du lịch nơi đây. Dự án mang lại cho địa phương cách khai thác các nguồn lực về du lịch còn chưa được khai thác."
+  // },
 ]
 
 

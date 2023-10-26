@@ -1,5 +1,11 @@
 import * as React from 'react';
 import './TourDetailStyle.css'
+import ta_lai_tour_1 from "../../assets/images/tour_detail/ta_lai/1.png";
+import ta_lai_tour_2 from "../../assets/images/tour_detail/ta_lai/2.png";
+import ta_lai_tour_3 from "../../assets/images/tour_detail/ta_lai/3.png";
+import ta_lai_tour_4 from "../../assets/images/tour_detail/ta_lai/4.png";
+import ta_lai_tour_5 from "../../assets/images/tour_detail/ta_lai/5.png";
+import ta_lai_tour_6 from "../../assets/images/tour_detail/ta_lai/6.png";
 
 const TourDetail = () => {
   return (
@@ -7,43 +13,43 @@ const TourDetail = () => {
 <div class="row mt-4">
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img
-      src="https://oms.hotdeal.vn/images/editors/sources/000333275524/333275-333275-body%20(10).jpg"
+      src={ta_lai_tour_1}
       class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
+      alt=""
     />
 
     <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWpQYycaUu1vqgIF-z8KnGguDE9BwGcPdAqg&usqp=CAU"
+      src={ta_lai_tour_2}
       class="w-100 shadow-1-strong rounded mb-4"
-      alt="Wintry Mountain Landscape"
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT__693esE4EzXKv-UKS357E0Q2ztHysPjFug&usqp=CAU"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Mountains in the Clouds"
-    />
-
-    <img
-      src="https://oms.hotdeal.vn/images/editors/sources/000333275524/333275-333275-body%20(10).jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
+      alt=""
     />
   </div>
 
   <div class="col-lg-4 mb-4 mb-lg-0">
     <img
-      src="https://oms.hotdeal.vn/images/editors/sources/000333275524/333275-333275-body%20(10).jpg"
+      src={ta_lai_tour_3}
       class="w-100 shadow-1-strong rounded mb-4"
-      alt="Waves at Sea"
+      alt=""
     />
 
     <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWpQYycaUu1vqgIF-z8KnGguDE9BwGcPdAqg&usqp=CAU"
+      src={ta_lai_tour_4}
       class="w-100 shadow-1-strong rounded mb-4"
-      alt="Yosemite National Park"
+      alt=""
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src={ta_lai_tour_5}
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+
+    <img
+      src={ta_lai_tour_6}
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
     />
   </div>
 </div>
@@ -371,7 +377,7 @@ Thông qua các hoạt động hỗ trợ thiết thực như đào tạo kỹ n
 <div className="row mt-5">
 <h2 className="fw-bold mb-3">Chi phí</h2>
   <p>
-    - Chi phí tổng : <span className="fw-bold" style={{color: "#ffb03b"}}> 3.990.000 VND</span>
+    - Chi phí tổng : <span className="fw-bold" style={{color: "#ffb03b"}}> 1.990.000 VND</span>
   </p>
   <p>
     - Chi phí bao gồm :
