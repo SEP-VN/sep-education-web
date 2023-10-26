@@ -57,7 +57,7 @@ const TravelPartner = () => {
                     </div>
                   </div>
                         <div class="row justify-content-end">
-                            <div class="form-group col-sm-4"> <button type="submit" class="btn-block btn-primary">Cùng trở thành đối tác</button> </div>
+                            <div class="form-group col-sm-2"> <button type="submit" class="btn-block btn-primary">Đăng kí</button> </div>
                         </div>
                     </form>
                 </div>
