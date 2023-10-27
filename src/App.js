@@ -1,6 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 import "./assets/styles/index.css";
 import MainRoute from './route/MainRoute';
 import Header from './layouts/Header/Header'; 

@@ -41,7 +41,7 @@ const TourInformation = () => {
   };
   return (
    
-        <section class="text-center">
+        <section className="text-center">
           {/* <!-- Background image --> */}
           <div className="p-5 bg-image" style={{ backgroundImage: `url(${TourInformationImage})`, height: '500px', 
           backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}></div>
@@ -53,11 +53,11 @@ const TourInformation = () => {
               backdropFilter: 'blur(2px)',
               padding: '20px' // Add padding for spacing inside the div
             }}>
-            <div class="card-body py-5 px-md-5">
+            <div className="card-body py-5 px-md-5">
 
-              <div class="row d-flex justify-content-center">
-                <div class="col-lg-8">
-                  <h2 class="fw-bold mb-5">Đăng kí chuyến đi</h2>
+              <div className="row d-flex justify-content-center">
+                <div className="col-lg-8">
+                  <h2 className="fw-bold mb-5">Đăng kí chuyến đi</h2>
                   <form onSubmit={handleSubmit}>
                     {/* Dropdown list */}
                     <div className="form-outline mb-4">
@@ -110,7 +110,7 @@ const TourInformation = () => {
                         </select>
                       </div>
 
-                    <div class="form-group mb-4">
+                    <div className="form-group mb-4">
                     <input
                       type="number"
                       className="form-control"
@@ -124,7 +124,7 @@ const TourInformation = () => {
                     </div>
 
                     {/* <!-- Submit button --> */}
-                    <button type="submit" class="btn btn-primary btn-lg btn-block mb-4">
+                    <button type="submit" className="btn btn-primary btn-lg btn-block mb-4">
                       Cùng đi thôi !
                     </button>
                     
