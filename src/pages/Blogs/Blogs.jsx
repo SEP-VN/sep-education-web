@@ -27,7 +27,7 @@ const blogs = [
     image: nong_thon,
     name:"Thách thức và Cơ hội trong Xây dựng Hệ thống Giáo dục Công Bằng và Hiệu Quả tại Việt Nam",
     description:"Giáo dục là yếu tố quan trọng để xây dựng tương lai của một quốc gia, và hệ thống giáo dục Việt Nam không phải là một ngoại lệ...",
-    link: "https://seprojectvietnam.blogspot.com/2023/10/thach-thuc-va-co-hoi-trong-xay-dung-he.html"
+    link: "https://seprojectvietnam.blogspot.com/2023/10/thach-thuc-va-co-hoi-trong-xay-dung-he_26.html"
   },
   {
     image: ta_lai,
@@ -43,7 +43,7 @@ const Blogs = () => {
   return (
     
     <main>
-      <Container  sx={{ py: 8, width: '80%' }} maxWidth="lg">
+      <Container  sx={{ py: 8, width: '90%' }} maxWidth="lg">
         {/* End hero unit */}
         <Grid container spacing={4}>
           {blogs.map((blog) => (

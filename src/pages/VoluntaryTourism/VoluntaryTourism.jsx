@@ -42,7 +42,7 @@ const VoluntaryTourism = () => {
   return (
     
     <main>
-      <Container sx={{ py: 8, width: '80%' }} maxWidth="lg">
+      <Container sx={{ py: 8, width: '90%' }} maxWidth="lg">
         {/* End hero unit */}
         <Grid container spacing={4}>
           {tours.map((tour) => (

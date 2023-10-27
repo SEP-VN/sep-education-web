@@ -36,8 +36,8 @@ const SignIn = () => {
     <section class="">
       {/* <!-- Jumbotron --> */}
       <div class="py-5 text-center text-lg-start" style={{ backgroundColor: 'hsl(0, 0%, 96%)',  padding: 0 }}>
-        <div class="container">
-          <div class="row gx-lg-5 align-items-center">
+        <div class="container" style={{ width: '70%' }}>
+          <div class="row gx-lg-5 align-items-center" >
             <div class="col-lg-6 mb-5 mb-lg-0">
               <h1 class="my-4 fw-bold ls-tight"> 
               Đăng kí trở thành 1 tình nguyện viên vì giáo dục<hr/>

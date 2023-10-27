@@ -10,6 +10,9 @@ import linhimg from "../../assets/images/teams/linh.jpg";
 import veeimg from "../../assets/images/teams/vee.jpg";
 import dungimg from "../../assets/images/teams/dung.jpg"; 
 import "./HomeStyle.css"
+import ta_lai from "../../assets/images/blogs/ta_lai.png";
+import gioi_thieu from "../../assets/images/blogs/gioi_thieu.png";
+import nong_thon from "../../assets/images/blogs/nong_thon.png";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -136,7 +139,9 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
 
 
 <section class="mt-5 py-3 py-md-5" >
-  <div class="container-fluid" style={{ maxWidth: '80%' }}>
+
+  <div class="container-fluid" style={{ maxWidth: '90%' }}>
+ 
     <div class="row gy-4 gy-md-4 gy-lg-0 align-items-lg-center">
       <div class="col-12 col-lg-6 col-xl-5">
         <img class="img-fluid rounded" loading="lazy" src="https://hnm.1cdn.vn/2021/07/08/hanoimoi.com.vn-uploads-images-phananh-2021-07-08-_dulich1.jpg" alt="About 1"/>
@@ -151,11 +156,124 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
       </div>
     </div>
   </div>
+
 </section>
+
+
 
 <hr class="mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
 
-<div class="container-fluid" style={{ maxWidth: '70%' }}>
+<div className="container-fluid" style={{ maxWidth: '90%'}}>
+<div class="row">
+    <div class="heading-title text-center" style={{ marginBottom: 0}}>
+        <h1>Các bài Blogs mới</h1>
+
+        <hr class="w-50 mx-auto mb-2 mb-xl-9 border-dark-subtle"/>
+    </div>
+    </div>
+
+
+<div class="row">
+<div class="col-5 col-md-5 col-lg-5 d-flex flex-column" >
+
+<div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4" data-mdb-ripple-color="light">
+<a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-ta-lai-thien-ang-cua.html" class="text-dark">
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+
+  <img src={ta_lai} style={{ width: '100%' }} alt=""/>
+ 
+</div>
+</a>
+  <a href="#!">
+    <div class="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+  </a>
+</div>
+
+
+<div class="row mb-3">
+  <div class="col-6">
+  <Link class="text-info" to="/voluntary-tourism"> 
+  <i class="fas fa-plane"></i>
+      Du lịch tình nguyện</Link>
+  </div>
+
+  <div class="col-6 text-end">
+  <u> 27.10.2023</u>
+  </div>
+</div>
+
+
+
+<a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-ta-lai-thien-ang-cua.html" class="text-dark">
+  <h5>Khám Phá Tà Lài - Thiên Đàng của Văn Hóa và Thiên Nhiên Hoang Sơ</h5>
+
+  <p>
+  Khi bạn tìm kiếm một điểm đến đầy sự kết hợp giữa thiên nhiên hoang sơ và văn hóa độc đáo, Tà Lài, xã nằm sâu trong lòng tỉnh Đồng Nai, chắc chắn sẽ là sự lựa chọn đáng cân nhắc...
+  </p>
+</a>
+
+</div>
+<div class="col-7 col-md-7 col-lg-7 d-flex flex-column">
+
+<a href="https://seprojectvietnam.blogspot.com/2023/10/thach-thuc-va-co-hoi-trong-xay-dung-he_26.html" class="text-dark">
+  <div class="row mb-4 border-bottom pb-2">
+    <div class="col-5" >
+      <img src={nong_thon}
+        class="img-fluid shadow-1-strong rounded h-100" alt="" />
+        
+    </div>
+    
+
+    <div class="col-7">
+      <p class="mb-2"><strong>Thách thức và Cơ hội trong Xây dựng Hệ thống Giáo dục Công Bằng và Hiệu Quả tại Việt Nam</strong></p>
+      
+
+  <p>
+  Giáo dục là yếu tố quan trọng để xây dựng tương lai của một quốc gia, và hệ thống giáo dục Việt Nam không phải là một ngoại lệ...
+  </p>
+
+      <p>
+        <u> 27.10.2023</u>
+      </p>
+    </div>
+  </div>
+</a>
+
+<a href="https://seprojectvietnam.blogspot.com/2023/10/su-menh-cua-sep.html" class="text-dark">
+  <div class="row mb-4 border-bottom pb-2">
+    <div class="col-5">
+      <img src={gioi_thieu}
+        class="img-fluid shadow-1-strong rounded h-100" alt="Hollywood Sign on The Hill" />
+        
+    </div>
+    
+
+    <div class="col-7">
+      <p class="mb-2"><strong>Sứ mệnh của S.E.P (Share Education Project)</strong></p>
+
+
+  <p>
+  S.E.P (Share Education Project) mang trong mình sứ mệnh và mong muốn góp phần giải quyết vấn đề thiếu cân bằng giáo dục giữa thành thị và nông thôn...
+  </p>
+
+      <p>
+      <u> 27.10.2023</u>
+      </p>
+    </div>
+  </div>
+</a>
+
+
+
+</div>
+
+
+</div>
+</div>
+
+<hr class="mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
+
+<div class="container-fluid" style={{ maxWidth: '80%' }}>
                     <div class="row">
                         <div class="heading-title text-center">
                             <h1>Đội ngũ của chúng tôi </h1>
