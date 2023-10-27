@@ -219,7 +219,7 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
   <div class="row mb-4 border-bottom pb-2">
     <div class="col-5" >
       <img src={nong_thon}
-        class="img-fluid shadow-1-strong rounded h-100" alt="" />
+        class="img-fluid shadow-1-strong rounded" alt="" />
         
     </div>
     
@@ -243,7 +243,7 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
   <div class="row mb-4 border-bottom pb-2">
     <div class="col-5">
       <img src={gioi_thieu}
-        class="img-fluid shadow-1-strong rounded h-100" alt="Hollywood Sign on The Hill" />
+        class="img-fluid shadow-1-strong rounded" alt="Hollywood Sign on The Hill" />
         
     </div>
     
