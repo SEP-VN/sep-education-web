@@ -1,7 +1,8 @@
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif, Helvetica, sans-serif;
+  font-family: 'Montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
