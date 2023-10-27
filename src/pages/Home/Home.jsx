@@ -11,7 +11,7 @@ import veeimg from "../../assets/images/teams/vee.jpg";
 import dungimg from "../../assets/images/teams/dung.jpg"; 
 import "./HomeStyle.css"
 import ta_lai from "../../assets/images/blogs/ta_lai.png";
-import gioi_thieu from "../../assets/images/blogs/gioi_thieu.png";
+import gioi_thieu from "../../assets/images/blogs/gioi_thieu_2.png";
 import nong_thon from "../../assets/images/blogs/nong_thon.png";
 
 const Home = () => {
