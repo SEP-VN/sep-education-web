@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 import gioi_thieu from "../../assets/images/blogs/gioi_thieu.png";
 import nong_thon from "../../assets/images/blogs/nong_thon.png";
 import ta_lai from "../../assets/images/blogs/ta_lai.png";
+import nct from "../../assets/images/blogs/nct.png";
 
 import "./BlogsStyle.css"
 
@@ -31,10 +32,16 @@ const blogs = [
   },
   {
     image: ta_lai,
-    name:"Khám Phá Tà Lài - Thiên Đàng của Văn Hóa và Thiên Nhiên Hoang Sơ",
+    name:"[Đồng Nai] Khám Phá Tà Lài - Thiên Đàng của Văn Hóa và Thiên Nhiên Hoang Sơ",
     description:"Khi bạn tìm kiếm một điểm đến đầy sự kết hợp giữa thiên nhiên hoang sơ và văn hóa độc đáo, Tà Lài, xã nằm sâu trong lòng tỉnh Đồng Nai, chắc chắn sẽ là sự lựa chọn đáng cân nhắc...",
     link: "https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-ta-lai-thien-ang-cua.html"
   },
+  {
+    image: nct,
+    name:"[Đồng Nai] Khám Phá Vườn quốc gia Nam Cát Tiên - Hành trình kỳ diệu giữa thiên nhiên và sinh học",
+    description:"Vườn quốc gia Nam Cát Tiên - Khu rừng chứa đựng nguồn tài nguyên đa dạng sinh học của Việt Nam. Trải dài trên 3 tỉnh Đồng Nai, Lâm Đồng và Bình Phước với diện tích 71.187,9 ha...",
+    link: "https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-vuon-quoc-gia-nam-cat.html"
+  }
 ]
 
 

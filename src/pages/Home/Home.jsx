@@ -11,8 +11,9 @@ import veeimg from "../../assets/images/teams/vee.jpg";
 import dungimg from "../../assets/images/teams/dung.jpg"; 
 import "./HomeStyle.css"
 import ta_lai from "../../assets/images/blogs/ta_lai.png";
-import gioi_thieu from "../../assets/images/blogs/gioi_thieu_2.png";
+// import gioi_thieu from "../../assets/images/blogs/gioi_thieu_2.png";
 import nong_thon from "../../assets/images/blogs/nong_thon.png";
+import nct from "../../assets/images/blogs/nct.png";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -274,10 +275,10 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
 <div className="col-5 col-md-5 col-lg-5 d-flex flex-column" >
 
 <div className="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4" data-mdb-ripple-color="light">
-<a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-ta-lai-thien-ang-cua.html" className="text-dark">
+<a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-vuon-quoc-gia-nam-cat.html" className="text-dark">
 <div style={{ display: 'flex', justifyContent: 'center' }}>
 
-  <img className="img-fluid shadow-1-strong rounded" src={ta_lai} style={{ width: '100%' }} alt=""/>
+  <img className="img-fluid shadow-1-strong rounded" src={nct} style={{ width: '100%' }} alt=""/>
  
 </div>
 </a>
@@ -295,38 +296,38 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
   </div>
 
   <div className="col-6 text-end">
-  <u> 27.10.2023</u>
+  <u> 28.10.2023</u>
   </div>
 </div>
 
 
 
-<a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-ta-lai-thien-ang-cua.html" className="text-dark">
-  <h5>Khám Phá Tà Lài - Thiên Đàng của Văn Hóa và Thiên Nhiên Hoang Sơ</h5>
+<a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-vuon-quoc-gia-nam-cat.html" className="text-dark">
+  <h5> [Đồng Nai] Khám Phá Vườn quốc gia Nam Cát Tiên - Hành trình kỳ diệu giữa thiên nhiên và sinh học</h5>
 
   <p>
-  Khi bạn tìm kiếm một điểm đến đầy sự kết hợp giữa thiên nhiên hoang sơ và văn hóa độc đáo, Tà Lài, xã nằm sâu trong lòng tỉnh Đồng Nai, chắc chắn sẽ là sự lựa chọn đáng cân nhắc...
+  Vườn quốc gia Nam Cát Tiên - Khu rừng chứa đựng nguồn tài nguyên đa dạng sinh học của Việt Nam. Trải dài trên 3 tỉnh Đồng Nai, Lâm Đồng và Bình Phước với diện tích 71.187,9 ha được bao quanh bởi hơn 80km sông Đồng Nai...
   </p>
 </a>
 
 </div>
 <div className="col-7 col-md-7 col-lg-7 d-flex flex-column">
 
-<a href="https://seprojectvietnam.blogspot.com/2023/10/thach-thuc-va-co-hoi-trong-xay-dung-he_26.html" className="text-dark">
+<a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-ta-lai-thien-ang-cua.html" className="text-dark">
   <div className="row mb-4 border-bottom pb-2">
     <div className="col-5" >
-      <img src={nong_thon}
+      <img src={ta_lai}
         className="img-fluid shadow-1-strong rounded" alt="" />
         
     </div>
     
 
     <div className="col-7">
-      <p className="mb-2"><strong>Thách thức và Cơ hội trong Xây dựng Hệ thống Giáo dục Công Bằng và Hiệu Quả tại Việt Nam</strong></p>
+      <p className="mb-2"><strong>[Đồng Nai] Khám Phá Tà Lài - Thiên Đàng của Văn Hóa và Thiên Nhiên Hoang Sơ</strong></p>
       
 
       <p>
-      Giáo dục là yếu tố quan trọng để xây dựng tương lai của một quốc gia, và hệ thống giáo dục Việt Nam không phải là một ngoại lệ...
+      Khi bạn tìm kiếm một điểm đến đầy sự kết hợp giữa thiên nhiên hoang sơ và văn hóa độc đáo, Tà Lài, xã nằm sâu trong lòng tỉnh Đồng Nai, chắc chắn sẽ là sự lựa chọn đáng cân nhắc...
       </p>
 
       <p>
@@ -336,21 +337,21 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
   </div>
 </a>
 
-<a href="https://seprojectvietnam.blogspot.com/2023/10/su-menh-cua-sep.html" className="text-dark">
+<a href="https://seprojectvietnam.blogspot.com/2023/10/thach-thuc-va-co-hoi-trong-xay-dung-he_26.html" className="text-dark">
   <div className="row mb-4 border-bottom pb-2">
     <div className="col-5">
-      <img src={gioi_thieu}
+      <img src={nong_thon}
         className="img-fluid shadow-1-strong rounded" alt="Hollywood Sign on The Hill" />
         
     </div>
     
 
     <div className="col-7">
-      <p className="mb-2"><strong>Sứ mệnh của S.E.P (Share Education Project)</strong></p>
+      <p className="mb-2"><strong>Thách thức và Cơ hội trong Xây dựng Hệ thống Giáo dục Công Bằng và Hiệu Quả tại Việt Nam</strong></p>
 
 
   <p>
-  S.E.P (Share Education Project) mang trong mình sứ mệnh và mong muốn góp phần giải quyết vấn đề thiếu cân bằng giáo dục giữa thành thị và nông thôn...
+  Giáo dục là yếu tố quan trọng để xây dựng tương lai của một quốc gia, và hệ thống giáo dục Việt Nam không phải là một ngoại lệ...
   </p>
 
       <p>
