@@ -316,8 +316,17 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
 <a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-ta-lai-thien-ang-cua.html" className="text-dark">
   <div className="row mb-4 border-bottom pb-2">
     <div className="col-5" >
-      <img src={ta_lai}
-        className="img-fluid shadow-1-strong rounded" alt="" />
+      
+        <img
+    src={ta_lai}
+    className="img-fluid shadow-1-strong rounded h-100"
+    style={{
+      objectFit: "cover",
+      width: "100%",
+      height: "100%",
+    }}
+    alt=""
+  />
         
     </div>
     
@@ -340,8 +349,16 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
 <a href="https://seprojectvietnam.blogspot.com/2023/10/thach-thuc-va-co-hoi-trong-xay-dung-he_26.html" className="text-dark">
   <div className="row mb-4 border-bottom pb-2">
     <div className="col-5">
-      <img src={nong_thon}
-        className="img-fluid shadow-1-strong rounded" alt="Hollywood Sign on The Hill" />
+    <img
+    src={nong_thon}
+    className="img-fluid shadow-1-strong rounded h-100"
+    style={{
+      objectFit: "cover",
+      width: "100%",
+      height: "100%",
+    }}
+    alt=""
+  />
         
     </div>
     
