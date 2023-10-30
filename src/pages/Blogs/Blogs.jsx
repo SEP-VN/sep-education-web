@@ -11,6 +11,9 @@ import gioi_thieu from "../../assets/images/blogs/gioi_thieu.png";
 import nong_thon from "../../assets/images/blogs/nong_thon.png";
 import ta_lai from "../../assets/images/blogs/ta_lai.png";
 import nct from "../../assets/images/blogs/nct.png";
+import hoc_sinh_ta_lai from "../../assets/images/blogs/hoc_sinh_ta_lai.png";
+import ngoai_khoa from "../../assets/images/blogs/ngoai_khoa.png";
+
 
 import "./BlogsStyle.css"
 
@@ -41,6 +44,18 @@ const blogs = [
     name:"[Đồng Nai] Khám Phá Vườn quốc gia Nam Cát Tiên - Hành trình kỳ diệu giữa thiên nhiên và sinh học",
     description:"Vườn quốc gia Nam Cát Tiên - Khu rừng chứa đựng nguồn tài nguyên đa dạng sinh học của Việt Nam. Trải dài trên 3 tỉnh Đồng Nai, Lâm Đồng và Bình Phước với diện tích 71.187,9 ha...",
     link: "https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-vuon-quoc-gia-nam-cat.html"
+  },
+  {
+    image: hoc_sinh_ta_lai,
+    name:"[Chân dung học sinh của S.E.P] Những Thiên thần tại làng Tà Lài",
+    description:"Đến với làng Tà Lài, điều đầu tiên dự án ấn tượng đó chính là những gương mặt ngây thơ, chực chờ nụ cười dành cho những vị khách phương xa của các em nhỏ nơi đây. Những tưởng với sự tích cực như vậy thì các em hẳn không có nhiều mối lo âu...",
+    link: "https://seprojectvietnam.blogspot.com/2023/10/chan-dung-hoc-sinh-cua-sep-nhung-thien.html"
+  },
+  {
+    image: ngoai_khoa,
+    name:"[Kỹ năng] Vai trò của hoạt động ngoại khóa cho sự phát triển của trẻ",
+    description:"Hoạt động ngoại khóa là một trong những mảng hoạt động giáo dục quan trọng trong việc giáo dục học sinh phát triển toàn diện. Tham gia các hoạt động ngoại khóa không chỉ giúp các em tăng cường sức khỏe, giải tỏa mệt mỏi...",
+    link: "https://seprojectvietnam.blogspot.com/2023/10/ky-nang-vai-tro-cua-hoat-ong-ngoai-khoa.html"
   }
 ]
 

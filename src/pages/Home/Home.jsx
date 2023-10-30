@@ -10,10 +10,12 @@ import linhimg from "../../assets/images/teams/linh.jpg";
 import veeimg from "../../assets/images/teams/vee.jpg";
 import dungimg from "../../assets/images/teams/dung.jpg"; 
 import "./HomeStyle.css"
-import ta_lai from "../../assets/images/blogs/ta_lai.png";
+// import ta_lai from "../../assets/images/blogs/ta_lai.png";
 // import gioi_thieu from "../../assets/images/blogs/gioi_thieu_2.png";
-import nong_thon from "../../assets/images/blogs/nong_thon.png";
+// import nong_thon from "../../assets/images/blogs/nong_thon.png";
 import nct from "../../assets/images/blogs/nct.png";
+import hoc_sinh_ta_lai from "../../assets/images/blogs/hoc_sinh_ta_lai.png";
+import ngoai_khoa from "../../assets/images/blogs/ngoai_khoa.png";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -275,10 +277,10 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
 <div className="col-5 col-md-5 col-lg-5 d-flex flex-column" >
 
 <div className="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4" data-mdb-ripple-color="light">
-<a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-vuon-quoc-gia-nam-cat.html" className="text-dark">
+<a href="https://seprojectvietnam.blogspot.com/2023/10/ky-nang-vai-tro-cua-hoat-ong-ngoai-khoa.html" className="text-dark">
 <div style={{ display: 'flex', justifyContent: 'center' }}>
 
-  <img className="img-fluid shadow-1-strong rounded" src={nct} style={{ width: '100%' }} alt=""/>
+  <img className="img-fluid shadow-1-strong rounded" src={ngoai_khoa} style={{ width: '100%' }} alt=""/>
  
 </div>
 </a>
@@ -296,29 +298,29 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
   </div>
 
   <div className="col-6 text-end">
-  <u> 28.10.2023</u>
+  <u> 30.10.2023</u>
   </div>
 </div>
 
 
 
-<a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-vuon-quoc-gia-nam-cat.html" className="text-dark">
-  <h5> [Đồng Nai] Khám Phá Vườn quốc gia Nam Cát Tiên - Hành trình kỳ diệu giữa thiên nhiên và sinh học</h5>
+<a href="https://seprojectvietnam.blogspot.com/2023/10/ky-nang-vai-tro-cua-hoat-ong-ngoai-khoa.html" className="text-dark">
+  <h5> <strong>[Kỹ năng] Vai trò của hoạt động ngoại khóa cho sự phát triển của trẻ</strong></h5>
 
   <p>
-  Vườn quốc gia Nam Cát Tiên - Khu rừng chứa đựng nguồn tài nguyên đa dạng sinh học của Việt Nam. Trải dài trên 3 tỉnh Đồng Nai, Lâm Đồng và Bình Phước với diện tích 71.187,9 ha được bao quanh bởi hơn 80km sông Đồng Nai...
+  Hoạt động ngoại khóa là một trong những mảng hoạt động giáo dục quan trọng trong việc giáo dục học sinh phát triển toàn diện. Tham gia các hoạt động ngoại khóa không chỉ giúp các em tăng cường sức khỏe, giải tỏa mệt mỏi...
   </p>
 </a>
 
 </div>
 <div className="col-7 col-md-7 col-lg-7 d-flex flex-column">
 
-<a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-ta-lai-thien-ang-cua.html" className="text-dark">
+<a href="https://seprojectvietnam.blogspot.com/2023/10/chan-dung-hoc-sinh-cua-sep-nhung-thien.html" className="text-dark">
   <div className="row mb-4 border-bottom pb-2">
     <div className="col-5" >
       
         <img
-    src={ta_lai}
+    src={hoc_sinh_ta_lai}
     className="img-fluid shadow-1-strong rounded h-100"
     style={{
       objectFit: "cover",
@@ -332,25 +334,25 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
     
 
     <div className="col-7">
-      <p className="mb-2"><strong>[Đồng Nai] Khám Phá Tà Lài - Thiên Đàng của Văn Hóa và Thiên Nhiên Hoang Sơ</strong></p>
+      <p className="mb-2"><strong>[Chân dung học sinh của S.E.P] Những Thiên thần tại làng Tà Lài</strong></p>
       
 
       <p>
-      Khi bạn tìm kiếm một điểm đến đầy sự kết hợp giữa thiên nhiên hoang sơ và văn hóa độc đáo, Tà Lài, xã nằm sâu trong lòng tỉnh Đồng Nai, chắc chắn sẽ là sự lựa chọn đáng cân nhắc...
+      Đến với làng Tà Lài, điều đầu tiên dự án ấn tượng đó chính là những gương mặt ngây thơ, chực chờ nụ cười dành cho những vị khách phương xa của các em nhỏ nơi đây. Những tưởng với sự tích cực như vậy thì các em hẳn không có nhiều mối lo âu...
       </p>
 
       <p>
-        <u> 27.10.2023</u>
+        <u> 30.10.2023</u>
       </p>
     </div>
   </div>
 </a>
 
-<a href="https://seprojectvietnam.blogspot.com/2023/10/thach-thuc-va-co-hoi-trong-xay-dung-he_26.html" className="text-dark">
+<a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-vuon-quoc-gia-nam-cat.html" className="text-dark">
   <div className="row mb-4 border-bottom pb-2">
     <div className="col-5">
     <img
-    src={nong_thon}
+    src={nct}
     className="img-fluid shadow-1-strong rounded h-100"
     style={{
       objectFit: "cover",
@@ -364,15 +366,15 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
     
 
     <div className="col-7">
-      <p className="mb-2"><strong>Thách thức và Cơ hội trong Xây dựng Hệ thống Giáo dục Công Bằng và Hiệu Quả tại Việt Nam</strong></p>
+      <p className="mb-2"><strong>[Đồng Nai] Khám Phá Vườn quốc gia Nam Cát Tiên - Hành trình kỳ diệu giữa thiên nhiên và sinh học</strong></p>
 
 
   <p>
-  Giáo dục là yếu tố quan trọng để xây dựng tương lai của một quốc gia, và hệ thống giáo dục Việt Nam không phải là một ngoại lệ...
+  Vườn quốc gia Nam Cát Tiên - Khu rừng chứa đựng nguồn tài nguyên đa dạng sinh học của Việt Nam. Trải dài trên 3 tỉnh Đồng Nai, Lâm Đồng và Bình Phước với diện tích 71.187,9 ha được bao quanh bởi hơn 80km sông Đồng Nai...
   </p>
 
       <p>
-      <u> 27.10.2023</u>
+      <u> 28.10.2023</u>
       </p>
     </div>
   </div>
