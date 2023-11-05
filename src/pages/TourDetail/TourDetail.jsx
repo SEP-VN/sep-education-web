@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const TourDetail = () => {
   return (
-    <div className="container">
+    <div className="container-fluid" style={{ maxWidth: '70%' }}>
 <div className="row mt-4">
   <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
     <img
@@ -327,6 +327,9 @@ Với hành trình 2 ngày 1 đêm, bạn lần được đi qua các trải ngh
 <h3 className="fw-bold mb-3">Chi phí</h3>
   <p>
     - Chi phí tổng : <span className="fw-bold" style={{color: "#ffb03b"}}> 1.890.000/khách</span>
+  </p>
+  <p>
+    - Chi phí khuyến mãi khi đăng kí nhóm 3 người : <s>5.670.000 VND</s><strong className="ms-2" style={{color: "#ffb03b"}}>5.370.000 VND</strong>
   </p>
   <p>
     - Chi phí bao gồm :
