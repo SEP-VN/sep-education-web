@@ -175,13 +175,13 @@ const Home = () => {
             </h6>
             <div className="row mt-4">
             <div className="col-6">
-            <Link to="/tour-detail" type="button" className="btn w-100" style={{ backgroundColor: "#007ba9", color: "white", borderRadius: "5px", fontSize: "1.3rem", fontWeight: "400", padding: "15px", }}>
+            <Link to="/tour-detail" type="button" className="btn w-100" style={{ backgroundColor: "#007ba9", color: "white", borderRadius: "5px", fontWeight: "400", padding: "15px", }}>
               Xem chi tiết
             </Link>
 
           </div>
           <div className="col-6">
-          <Link to="/registration" type="button" className="btn w-100" style={{ backgroundColor: "#ffb03b", color: "white", borderRadius: "5px", fontSize: "1.3rem", fontWeight: "400", padding: "15px", }}>
+          <Link to="/registration" type="button" className="btn w-100" style={{ backgroundColor: "#ffb03b", color: "white", borderRadius: "5px", fontWeight: "400", padding: "15px", }}>
               Đăng kí ngay
             </Link>
           </div>
