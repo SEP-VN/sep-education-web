@@ -143,7 +143,7 @@ const Home = () => {
       <section>
   <div className="text-center container py-3 p-0">
   <hr className="mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
-    <h3 className="fw-bold mt-2 mb-4 ">CÁC CHUYẾN ĐI NỔI BẬT</h3>
+    <h3 className="fw-bold  mb-4 ">CÁC CHUYẾN ĐI NỔI BẬT</h3>
 
     <div className="row p-0" style={{ height: '100%' }}>
       
@@ -208,7 +208,7 @@ const Home = () => {
  
     <div className="row gy-4 gy-md-4 gy-lg-0 align-items-lg-center">
       <div className="col-12 col-lg-6 col-xl-5">
-        <img className="img-fluid rounded" loading="lazy" src="https://hnm.1cdn.vn/2021/07/08/hanoimoi.com.vn-uploads-images-phananh-2021-07-08-_dulich1.jpg" alt="About 1"/>
+        <img className="img-fluid rounded" style={{ width: '100%', height: '350px', objectFit: 'cover' }} loading="lazy" src="https://hnm.1cdn.vn/2021/07/08/hanoimoi.com.vn-uploads-images-phananh-2021-07-08-_dulich1.jpg" alt="About 1"/>
       </div>
       <div className="col-12 col-lg-6 col-xl-7">
         <div className="row justify-content-xl-center">
@@ -244,7 +244,7 @@ const Home = () => {
 <a href="https://seprojectvietnam.blogspot.com/2023/10/ky-nang-vai-tro-cua-hoat-ong-ngoai-khoa.html" className="text-dark">
 <div style={{ display: 'flex', justifyContent: 'center' }}>
 
-  <img className="img-fluid shadow-1-strong rounded" src={ngoai_khoa} style={{ width: '100%' }} alt=""/>
+  <img className="img-fluid shadow-1-strong rounded" src={ngoai_khoa} style={{ width: '100%', height: '350px', objectFit: 'cover' }}   alt=""/>
  
 </div>
 </a>
@@ -281,23 +281,19 @@ const Home = () => {
 
 <a href="https://seprojectvietnam.blogspot.com/2023/10/chan-dung-hoc-sinh-cua-sep-nhung-thien.html" className="text-dark">
   <div className="row mb-4 border-bottom pb-2">
-    <div className="col-5" >
+    <div className="col-6" >
       
         <img
     src={hoc_sinh_ta_lai}
     className="img-fluid shadow-1-strong rounded h-100"
-    style={{
-      objectFit: "cover",
-      width: "100%",
-      height: "100%",
-    }}
+    style={{ width: '100%', height: '350px', objectFit: 'cover' }}
     alt=""
   />
         
     </div>
     
 
-    <div className="col-7">
+    <div className="col-6">
       <p className="mb-2"><strong>[Chân dung học sinh của S.E.P] Những Thiên thần tại làng Tà Lài</strong></p>
       
 
@@ -314,22 +310,18 @@ const Home = () => {
 
 <a href="https://seprojectvietnam.blogspot.com/2023/10/ong-nai-kham-pha-vuon-quoc-gia-nam-cat.html" className="text-dark">
   <div className="row mb-4 border-bottom pb-2">
-    <div className="col-5">
+    <div className="col-6">
     <img
     src={nct}
     className="img-fluid shadow-1-strong rounded h-100"
-    style={{
-      objectFit: "cover",
-      width: "100%",
-      height: "100%",
-    }}
+    style={{ width: '100%', height: '350px', objectFit: 'cover' }}
     alt=""
   />
         
     </div>
     
 
-    <div className="col-7">
+    <div className="col-6">
       <p className="mb-2"><strong>[Đồng Nai] Khám Phá Vườn quốc gia Nam Cát Tiên - Hành trình kỳ diệu giữa thiên nhiên và sinh học</strong></p>
 
 
