@@ -244,7 +244,7 @@ const Home = () => {
 <a href="https://seprojectvietnam.blogspot.com/2023/10/ky-nang-vai-tro-cua-hoat-ong-ngoai-khoa.html" className="text-dark">
 <div style={{ display: 'flex', justifyContent: 'center' }}>
 
-  <img className="img-fluid shadow-1-strong rounded" src={ngoai_khoa} style={{ width: '100%', height: '350px', objectFit: 'cover' }}   alt=""/>
+  <img className="img-fluid shadow-1-strong rounded" src={ngoai_khoa} style={{ width: '100%', objectFit: 'cover' }}   alt=""/>
  
 </div>
 </a>
@@ -285,8 +285,8 @@ const Home = () => {
       
         <img
     src={hoc_sinh_ta_lai}
-    className="img-fluid shadow-1-strong rounded h-100"
-    style={{ width: '100%', height: '350px', objectFit: 'cover' }}
+    className="img-fluid shadow-1-strong rounded "
+    style={{ width: '100%', objectFit: 'cover' }}
     alt=""
   />
         
@@ -313,8 +313,8 @@ const Home = () => {
     <div className="col-6">
     <img
     src={nct}
-    className="img-fluid shadow-1-strong rounded h-100"
-    style={{ width: '100%', height: '350px', objectFit: 'cover' }}
+    className="img-fluid shadow-1-strong rounded"
+    style={{ width: '100%', objectFit: 'cover' }}
     alt=""
   />
         
