@@ -143,7 +143,7 @@ const Home = () => {
       <section>
   <div className="text-center container py-3 p-0">
   <hr className="mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
-    <h3 className="fw-bold mt-3 mb-5 ">CÁC CHUYẾN ĐI NỔI BẬT</h3>
+    <h3 className="fw-bold mt-3 mb-4 ">CÁC CHUYẾN ĐI NỔI BẬT</h3>
 
     <div className="row p-0" style={{ height: '100%' }}>
       
@@ -202,7 +202,7 @@ const Home = () => {
 </section>
 
 <hr className="mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
-<section className="mt-5 py-3 py-md-5" >
+<section className="mt-5 py-3 py-md-3" >
 
   <div className="container-fluid" style={{ maxWidth: '90%' }}>
  
