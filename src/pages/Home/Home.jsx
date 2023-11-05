@@ -208,7 +208,7 @@ const Home = () => {
  
     <div className="row gy-4 gy-md-4 gy-lg-0 align-items-lg-center">
       <div className="col-12 col-lg-6 col-xl-5">
-        <img className="img-fluid rounded" style={{ width: '100%', height: '350px', objectFit: 'cover' }} loading="lazy" src="https://hnm.1cdn.vn/2021/07/08/hanoimoi.com.vn-uploads-images-phananh-2021-07-08-_dulich1.jpg" alt="About 1"/>
+        <img className="img-fluid rounded" style={{ width: '100%', objectFit: 'cover' }} loading="lazy" src="https://hnm.1cdn.vn/2021/07/08/hanoimoi.com.vn-uploads-images-phananh-2021-07-08-_dulich1.jpg" alt="About 1"/>
       </div>
       <div className="col-12 col-lg-6 col-xl-7">
         <div className="row justify-content-xl-center">
@@ -244,8 +244,8 @@ const Home = () => {
 <a href="https://seprojectvietnam.blogspot.com/2023/10/ky-nang-vai-tro-cua-hoat-ong-ngoai-khoa.html" className="text-dark">
 <div style={{ display: 'flex', justifyContent: 'center' }}>
 
-  <img className="img-fluid shadow-1-strong rounded" src={ngoai_khoa} style={{ width: '100%', objectFit: 'cover' }}   alt=""/>
- 
+  <img className="img-fluid shadow-1-strong rounded" src={ngoai_khoa} style={{ width: '100%' }}   alt=""/>
+              
 </div>
 </a>
   <a href="#!">
@@ -285,7 +285,7 @@ const Home = () => {
       
         <img
     src={hoc_sinh_ta_lai}
-    className="img-fluid shadow-1-strong rounded "
+    className="img-fluid shadow-1-strong rounded h-100"
     style={{ width: '100%', objectFit: 'cover' }}
     alt=""
   />
@@ -298,7 +298,7 @@ const Home = () => {
       
 
       <p>
-      Đến với làng Tà Lài, điều đầu tiên dự án ấn tượng đó chính là những gương mặt ngây thơ, chực chờ nụ cười dành cho những vị khách phương xa của các em nhỏ nơi đây. Những tưởng với sự tích cực như vậy thì các em hẳn không có nhiều mối lo âu...
+      Đến với làng Tà Lài, điều đầu tiên dự án ấn tượng đó chính là những gương mặt ngây thơ, chực chờ nụ cười dành cho những vị khách phương xa của các em nhỏ nơi đây...
       </p>
 
       <p>
@@ -313,7 +313,7 @@ const Home = () => {
     <div className="col-6">
     <img
     src={nct}
-    className="img-fluid shadow-1-strong rounded"
+    className="img-fluid shadow-1-strong rounded h-100"
     style={{ width: '100%', objectFit: 'cover' }}
     alt=""
   />
@@ -326,7 +326,7 @@ const Home = () => {
 
 
   <p>
-  Vườn quốc gia Nam Cát Tiên - Khu rừng chứa đựng nguồn tài nguyên đa dạng sinh học của Việt Nam. Trải dài trên 3 tỉnh Đồng Nai, Lâm Đồng và Bình Phước với diện tích 71.187,9 ha được bao quanh bởi hơn 80km sông Đồng Nai...
+  Vườn quốc gia Nam Cát Tiên - Khu rừng chứa đựng nguồn tài nguyên đa dạng sinh học của Việt Nam. Trải dài trên 3 tỉnh Đồng Nai, Lâm Đồng và Bình Phước với diện tích 71.187,9 ha...
   </p>
 
       <p>
