@@ -108,7 +108,7 @@ const Header = () => {
        { !items ?<div>
           <button className="btn-primary mr-45">
             <Link
-              to="/sign-in"
+              to="/registration"
               style={{ textDecoration: "none", color: "white" }} 
               onClick={toggleCollapse}
             >

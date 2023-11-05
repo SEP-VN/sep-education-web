@@ -17,7 +17,7 @@ const tours = [
   {
     image: ta_lai_tour,
     name:"DU LỊCH TÌNH NGUYỆN LÀNG TÀ LÀI",
-    description:" Du lịch tình nguyện tại làng Tà Lài nhằm hỗ trợ phát triển giáo dục, thúc đẩy phát triển mô hình du lịch cộng đồng tại nơi đây và quảng bá các nghề truyền thống địa phương,..."
+    description:"Tuyến du lịch tình nguyện tại làng Tà Lài được S.E.P phát triển với mục tiêu hỗ trợ giáo dục, thúc đẩy mô hình du lịch cộng đồng và quảng bá các loại hình nghề truyền thống địa phương,..."
   },
   // {
   //   image: "https://dulichmedia.dalat.vn/Images/DNI/superadminportal.dni/Tin%20t%E1%BB%A9c/N%C4%83m2021/Th%C3%A1ng3/42talai4_637523557206278207.jpg",

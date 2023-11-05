@@ -16,7 +16,7 @@ const MainRoute = () => {
       <Route path="/" element={<Home />} />
       <Route path="/voluntary-tourism" element={<VoluntaryTourism />} />
       <Route path="/travel-partner" element={<TravelPartner />} />
-      <Route path="/sign-in" element={<SignIn />} />
+      <Route path="/registration" element={<SignIn />} />
       <Route path="/tour-information" element={<TourInformation />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/tour-detail" element={<TourDetail />} />

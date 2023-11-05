@@ -1,126 +1,51 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGoogle } from '@fortawesome/free-brands-svg-icons';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { useNavigate } from 'react-router-dom';
-import { Register } from "../../api/Authenticate";
-import { useState } from 'react';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faGoogle } from '@fortawesome/free-brands-svg-icons';
+// import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+// import { useNavigate } from 'react-router-dom';
+// import { Register } from "../../api/Authenticate";
+// import { useState } from 'react';
 
 const SignIn = () => {
-  const navigate = useNavigate();
-  const [inputName, setInputName] = useState(null);
-  const [inputPhoneNumber, setInputPhoneNumber] = useState(null);
-  const [inputEmail, setInputEmail] = useState(null);
+  // const navigate = useNavigate();
+  // const [inputName, setInputName] = useState(null);
+  // const [inputPhoneNumber, setInputPhoneNumber] = useState(null);
+  // const [inputEmail, setInputEmail] = useState(null);
 
-  const handleNameChange = (event) => {
-    setInputName(event.target.value);
-  };
+  // const handleNameChange = (event) => {
+  //   setInputName(event.target.value);
+  // };
 
-  const handlePhoneNumberChange = (event) => {
-    setInputPhoneNumber(event.target.value);
-  };
+  // const handlePhoneNumberChange = (event) => {
+  //   setInputPhoneNumber(event.target.value);
+  // };
 
-  const handleEmailChange = (event) => {
-    setInputEmail(event.target.value);
-  };
+  // const handleEmailChange = (event) => {
+  //   setInputEmail(event.target.value);
+  // };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-     // Make the Axios call and store the customer ID
-      Register(inputName, inputPhoneNumber, inputEmail)
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //    // Make the Axios call and store the customer ID
+  //     Register(inputName, inputPhoneNumber, inputEmail)
     
-    // Redirect to the "/tour-information" page
-    navigate('/tour-information');
-  };
+  //   // Redirect to the "/tour-information" page
+  //   navigate('/tour-information');
+  // };
 
   return (
     <section className="">
       {/* <!-- Jumbotron --> */}
-      <div className="py-5 text-center text-lg-start" style={{ backgroundColor: 'hsl(0, 0%, 96%)',  padding: 0 }}>
-        <div className="container" style={{ width: '70%' }}>
-          <div className="row gx-lg-5 align-items-center" >
-            <div className="col-lg-6 mb-5 mb-lg-0">
-              <h2 className="my-4 fw-bold ls-tight"> 
-              Đăng kí trở thành 1 tình nguyện viên vì giáo dục<hr/>
-              <span style={{ color: '#ffb03b' }}>Share Education Project</span>
-              </h2>
-              
-              <p style={{ color: 'hsl(217, 10%, 50.8%)' }}>
-              S.E.P (Share Education Project) - mô hình tình nguyện tích hợp du lịch với mong muốn mang tri thức về các vùng nông thôn. Trong dự án này, các tình nguyện viên trẻ trong độ tuổi từ 18-35 đến từ thành thị sẽ tham gia để chia sẻ kiến thức và trải nghiệm du lịch bản địa với các bạn học sinh tại vùng. Các tình nguyện viên sẽ được đào tạo trước khi tham gia dạy học, và giáo trình dạy học sẽ được biên soạn bởi các chuyên gia, phù hợp với từng độ tuổi và trình độ của học sinh ở vùng nông thôn.
-              </p>
-            </div>
+      
+      <div className="container-fluid h-100">
+  <iframe
+    src="https://forms.gle/3rpvDNEcV5SVaT4K7"
+    className="w-100"
+    title="Feedback Form"
+    style={{ height: '2780px' }}
+  ></iframe>
+</div>
 
-            <div className="col-lg-6 mb-5 mb-lg-0">
-              <div className="card" style={{ padding: 0 }}>
-                <div className="card-body py-5 px-md-5">
-                  <form onSubmit={handleSubmit}>
-                    {/* <!-- Name input --> */}
-                    <div className="form-outline mb-4">
-                    <input
-                      type="text" // Change the input type to text
-                      id="formName"
-                      className="form-control"
-                      placeholder="Họ và tên"
-                      value={inputName} // Bind value to the state
-                      onChange={handleNameChange} // Handle input changes
-                    />
-                  </div>
-
-                    {/* <!-- Phone number input --> */}
-                    <div className="form-outline mb-4">
-                    <input
-                      type="text" // Change the input type to text
-                      id="formPhoneNumber"
-                      className="form-control"
-                      placeholder="Số điện thoại"
-                      value={inputPhoneNumber} // Bind value to the state
-                      onChange={handlePhoneNumberChange} // Handle input changes
-                    />
-                  </div>
-
-                    {/* <!-- Email input --> */}
-                    <div className="form-outline mb-4">
-                    <input
-                      type="email" // You can keep this as email
-                      id="formEmail"
-                      className="form-control"
-                      placeholder="Email"
-                      value={inputEmail} // Bind value to the state
-                      onChange={handleEmailChange} // Handle input changes
-                    />
-                  </div>
-
-                    {/* <!-- Checkbox --> */}
-                    <div className="form-check d-flex justify-content-center mb-4">
-                      <input className="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-                      <label className="form-check-label" for="form2Example33">
-                        Theo dõi tất cả thông tin của chúng tôi
-                      </label>
-                    </div>
-
-                    {/* <!-- Submit button --> */}
-                    <button type="submit" className="col-12 btn btn-primary mb-4">
-                       Đăng kí
-                    </button>
-
-                    {/* <!-- Register buttons --> */}
-                    <div className="text-center">
-                      <p>Hoặc đăng kí với:</p>
-                      <button type="button" className="btn btn-link btn-floating mx-1">
-                      <FontAwesomeIcon icon={faGoogle}/>
-
-                      </button>
-
-                      <button type="button" className="btn btn-link btn-floating mx-1">
-                        <FontAwesomeIcon icon={faFacebook} />
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  
     </section>
   )
 }

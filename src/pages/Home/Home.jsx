@@ -16,6 +16,7 @@ import "./HomeStyle.css"
 import nct from "../../assets/images/blogs/nct.png";
 import hoc_sinh_ta_lai from "../../assets/images/blogs/hoc_sinh_ta_lai.png";
 import ngoai_khoa from "../../assets/images/blogs/ngoai_khoa.png";
+import ta_lai_tour from "../../assets/images/voluntary_tourism/ta_lai_tour.png";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -46,7 +47,6 @@ const Home = () => {
       imageUrl: bannerProject3,
     },
   ];
-console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOMER}`)
   const items = Array.from({ length: slides.length }, (_, i) => (
     <button
       className={`mx-2 ${i === activeIndex ? "bg-white-80" : "bg-white-50"}`}
@@ -111,7 +111,7 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
                   {" "}
                   Chia sẻ kiến thức và trải nghiệm du lịch{" "}
                 </h4>
-                <Link to="/sign-in" type="button" className="btn-primary btn-warning" style={{color:"white", borderRadius:"5px", marginTop:"20px", fontSize:"1.3rem",fontWeight:"400", padding:"15px"}}>Đăng kí ngay</Link>
+                <Link to="/registration" type="button" className="btn-primary btn-warning" style={{color:"white", borderRadius:"5px", marginTop:"20px", fontSize:"1.3rem",fontWeight:"400", padding:"15px"}}>Đăng kí ngay</Link>
               </div>
             </div>
           ))}
@@ -140,104 +140,68 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
         </a>
       </div>
 
-      {/* <section style={{backgroundColor: "#eee"}}>
-  <div className="text-center container py-5">
-    <h4 className="mt-4 mb-5"><strong>Bestsellers</strong></h4>
+      <section>
+  <div className="text-center container py-3 p-0">
+  <hr className="mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
+    <h3 className="fw-bold mt-4 mb-5 ">CÁC CHUYẾN ĐI NỔI BẬT</h3>
 
-    <div className="row">
-      <div className="col-lg-4 col-md-12 mb-4">
-        <div className="card">
-          <div className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-            data-mdb-ripple-color="light">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/belt.webp"
-              className="w-100" alt=""/>
-            <a href="#!">
-              <div className="mask">
-                <div className="d-flex justify-content-start align-items-end h-100">
-                  <h5><span className="badge bg-primary ms-2">New</span></h5>
-                </div>
-              </div>
-              <div className="hover-overlay">
-                <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
-              </div>
-            </a>
-          </div>
-          <div className="card-body">
-            <a href="" className="text-reset">
-              <h5 className="card-title mb-3">Product name</h5>
-            </a>
-            <a href="" className="text-reset">
-              <p>Category</p>
-            </a>
-            <h6 className="mb-3">$61.99</h6>
-          </div>
-        </div>
-      </div>
+    <div className="row p-0" style={{ height: '100%' }}>
+      
 
-      <div className="col-lg-4 col-md-6 mb-4">
-        <div className="card">
-          <div className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-            data-mdb-ripple-color="light">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(4).webp"
-              className="w-100" alt=""/>
-            <a href="#!">
-              <div className="mask">
-                <div className="d-flex justify-content-start align-items-end h-100">
-                  <h5><span className="badge bg-success ms-2">Eco</span></h5>
-                </div>
-              </div>
-              <div className="hover-overlay">
-                <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
-              </div>
-            </a>
-          </div>
-          <div className="card-body">
-            <a href="" className="text-reset">
-              <h5 className="card-title mb-3">Product name</h5>
-            </a>
-            <a href="" className="text-reset">
-              <p>Category</p>
-            </a>
-            <h6 className="mb-3">$61.99</h6>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-lg-4 col-md-6 mb-4">
-        <div className="card">
+    <div className="col-lg-5 col-md-6 mb-4 mx-auto p-0 m-0">
+       <div className="card p-0 m-0"> 
           <div className="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/shoes%20(3).webp"
+            <img src={ta_lai_tour}
               className="w-100" alt=""/>
-            <a href="#!">
+            
               <div className="mask">
                 <div className="d-flex justify-content-start align-items-end h-100">
-                  <h5><span className="badge bg-danger ms-2">-10%</span></h5>
+                  <h5><span class="badge bg-success ms-2">11/11/2023 - 12/11/2023</span><span className="badge bg-danger ms-2 mt-2">- 300.000 VND</span></h5>
                 </div>
               </div>
               <div className="hover-overlay">
                 <div className="mask" style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
               </div>
-            </a>
+            
           </div>
           <div className="card-body">
-            <a href="" className="text-reset">
-              <h5 className="card-title mb-3">Product name</h5>
-            </a>
-            <a href="" className="text-reset">
-              <p>Category</p>
-            </a>
+          
+          <h5 className="fw-bold mb-3" style={{ color: "#007ba9" }}>DU LỊCH TÌNH NGUYỆN LÀNG TÀ LÀI</h5> 
+            
+              <p>Tuyến du lịch tình nguyện tại làng Tà Lài được S.E.P phát triển với mục tiêu hỗ trợ giáo dục, thúc đẩy mô hình du lịch cộng đồng và quảng bá các loại hình nghề truyền thống địa phương,...</p>
+           
             <h6 className="mb-3">
-              <s>$61.99</s><strong className="ms-2 text-danger">$50.99</strong>
+              <s>5.670.000 VND / 3 người</s><br /><strong className="ms-2 text-danger">5.370.000 VND / 3 người</strong>
             </h6>
+            <div className="row mt-4">
+            <div className="col-6">
+            <Link to="/tour-detail" type="button" className="btn w-100" style={{ backgroundColor: "#007ba9", color: "white", borderRadius: "5px", fontSize: "1.3rem", fontWeight: "400", padding: "15px", }}>
+              Xem chi tiết
+            </Link>
+
           </div>
+          <div className="col-6">
+          <Link to="/registration" type="button" className="btn w-100" style={{ backgroundColor: "#ffb03b", color: "white", borderRadius: "5px", fontSize: "1.3rem", fontWeight: "400", padding: "15px", }}>
+              Đăng kí ngay
+            </Link>
+          </div>
+
+          </div>
+            
+          </div>
+          
+          
+
+
+
         </div>
       </div>
     </div>
 
   </div>
-</section> */}
+</section>
 
-
+<hr className="mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
 <section className="mt-5 py-3 py-md-5" >
 
   <div className="container-fluid" style={{ maxWidth: '90%' }}>
@@ -249,7 +213,7 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
       <div className="col-12 col-lg-6 col-xl-7">
         <div className="row justify-content-xl-center">
           <div className="col-12 col-xl-11">
-          <h3 className="fw-bold mb-3">S.E.P là ai ?</h3>
+          <h3 className="fw-bold mb-3">S.E.P LÀ AI ?</h3>
             <p className="mb-5 lead fs-5">S.E.P (Share Edu Project) - mô hình tình nguyện tích hợp du lịch với mong muốn mang tri thức về các vùng nông thôn. Trong dự án này, các tình nguyện viên trẻ trong độ tuổi từ 18-35 đến từ thành thị sẽ tham gia để chia sẻ kiến thức và trải nghiệm du lịch bản địa với các bạn học sinh tại vùng. Các tình nguyện viên sẽ được đào tạo trước khi tham gia dạy học, và giáo trình dạy học sẽ được biên soạn bởi các chuyên gia, phù hợp với từng độ tuổi và trình độ của học sinh ở vùng nông thôn.</p>
           </div>
         </div>
@@ -266,7 +230,7 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
 <div className="container-fluid" style={{ maxWidth: '90%'}}>
 <div className="row">
     <div className="heading-title text-center" style={{ marginBottom: 0}}>
-        <h3 className="fw-bold mb-3">Các bài blogs mới</h3>
+        <h3 className="fw-bold mb-3">CÁC BÀI BLOGS MỚI</h3>
 
         <hr className="w-50 mx-auto mb-2 mb-xl-9 border-dark-subtle"/>
     </div>
@@ -393,7 +357,7 @@ console.log(`${process.env.REACT_APP_API_URL}${process.env.REACT_APP_API_CUSTOME
 <div className="container-fluid" style={{ maxWidth: '80%' }}>
                     <div className="row">
                         <div className="heading-title text-center">
-                        <h3 className="fw-bold mb-3">Đội ngũ của chúng tôi </h3>
+                        <h3 className="fw-bold mb-3">ĐỘI NGŨ CỦA CHÚNG TÔI </h3>
                             <p className="mb-3 mt-3 text-center lead fs-4" style={{color: '#ffa012' }}>Tình nguyện  |  Trải nghiệm  | Bền Vững </p>
                             <hr className="w-50 mx-auto mb-2 mb-xl-9 border-dark-subtle"/>
                         </div>
