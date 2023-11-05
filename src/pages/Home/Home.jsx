@@ -143,12 +143,12 @@ const Home = () => {
       <section>
   <div className="text-center container py-3 p-0">
   <hr className="mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
-    <h3 className="fw-bold mt-4 mb-5 ">CÁC CHUYẾN ĐI NỔI BẬT</h3>
+    <h3 className="fw-bold mt-4 mb-4 ">CÁC CHUYẾN ĐI NỔI BẬT</h3>
 
     <div className="row p-0" style={{ height: '100%' }}>
       
 
-    <div className="col-lg-5 col-md-6 mb-4 mx-auto p-0 m-0">
+    <div className="col-lg-6 col-md-8 mb-4 mx-auto p-0 m-0">
        <div className="card p-0 m-0"> 
           <div className="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
             <img src={ta_lai_tour}
@@ -168,7 +168,7 @@ const Home = () => {
           
           <h5 className="fw-bold mb-3" style={{ color: "#007ba9" }}>DU LỊCH TÌNH NGUYỆN LÀNG TÀ LÀI</h5> 
             
-              <p>Tuyến du lịch tình nguyện tại làng Tà Lài được S.E.P phát triển với mục tiêu hỗ trợ giáo dục, thúc đẩy mô hình du lịch cộng đồng và quảng bá các loại hình nghề truyền thống địa phương,...</p>
+              <p>Tuyến du lịch tình nguyện tại làng Tà Lài được S.E.P phát triển với mục tiêu hỗ trợ giáo dục, thúc đẩy mô hình du lịch cộng đồng và quảng bá...</p>
            
             <h6 className="mb-3">
               <s>5.670.000 VND / 3 người</s><br /><strong className="ms-2 text-danger">5.370.000 VND / 3 người</strong>
