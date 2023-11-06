@@ -19,7 +19,7 @@ const MainRoute = () => {
       <Route path="/registration" element={<SignIn />} />
       <Route path="/tour-information" element={<TourInformation />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/tour-detail" element={<TourDetail />} />
+      <Route path="/tours/ta-lai-2-ngay-1-dem" element={<TourDetail />} />
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/*" element={<Home />} />
       </Routes>

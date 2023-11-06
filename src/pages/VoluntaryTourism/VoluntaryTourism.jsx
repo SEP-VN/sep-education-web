@@ -47,7 +47,7 @@ const VoluntaryTourism = () => {
         <Grid container spacing={4}>
           {tours.map((tour) => (
             <Grid item key={tour} xs={12} sm={6} md={4}>
-              <Link to="/tour-detail"> {/* Add your route here */}
+              <Link to="/tours/ta-lai-2-ngay-1-dem"> {/* Add your route here */}
                 <Card
                   sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
                 >

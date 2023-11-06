@@ -64,7 +64,8 @@ const Header = () => {
               Trang chủ
             </Link>
           </li>
-          <li className={`nav-item ${currentPathname === "/voluntary-tourism" ? "active" : ""}`}>
+          <li className={`nav-item ${currentPathname === "/voluntary-tourism" || currentPathname === "/tours/ta-lai-2-ngay-1-dem" ? "active" : ""}`}>
+
             <Link 
               to="/voluntary-tourism" 
               class="nav-link text-header mr-2"  

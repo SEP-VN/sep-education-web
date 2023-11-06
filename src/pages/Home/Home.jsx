@@ -175,7 +175,7 @@ const Home = () => {
             </h6>
             <div className="row mt-4">
             <div className="col-6">
-            <Link to="/tour-detail" type="button" className="btn w-100" style={{ backgroundColor: "#007ba9", color: "white", borderRadius: "5px", fontWeight: "400", padding: "15px", }}>
+            <Link to="/tours/ta-lai-2-ngay-1-dem" type="button" className="btn w-100" style={{ backgroundColor: "#007ba9", color: "white", borderRadius: "5px", fontWeight: "400", padding: "15px", }}>
               Xem chi tiết
             </Link>
 
