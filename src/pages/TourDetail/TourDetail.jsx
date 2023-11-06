@@ -24,21 +24,7 @@ const TourDetail = () => {
     // link.click();
     // };
     const handleWatchOnline = () => {
-        const newWindow = window.open(brochure, '_blank');
-       
-        // Check if the new window is successfully opened
-            // Check if the new window is successfully opened
-        if (newWindow) {
-            newWindow.onload = () => {
-                // Set a custom icon for the new window by adding a link element to the new window's head
-                const iconLink = newWindow.document.createElement('link');
-                iconLink.rel = 'icon';
-                iconLink.href = '/logo-full.png'; // Use your public icon URL
-                newWindow.document.head.appendChild(iconLink);
-                // Set the title in the new window
-                newWindow.document.title = 'S.E.P Brochure Tà Lài';
-            };
-        }
+        window.open(brochure, '_blank');
       };
 
   return (
