@@ -13,16 +13,19 @@ const TourDetail = () => {
 
     // const pdfUrl = 'https://example.com/path-to-your-pdf-file.pdf';
 
-    const handleDownload = () => {
-    // Create a hidden anchor element
-    const link = document.createElement('a');
-    link.href = brochure;
-    link.target = '_blank';
-    link.download = 'SEP_brochure_TaLai.pdf'; // Set the desired file name
+    // const handleDownload = () => {
+    // // Create a hidden anchor element
+    // const link = document.createElement('a');
+    // link.href = brochure;
+    // link.target = '_blank';
+    // link.download = 'SEP_brochure_TaLai.pdf'; // Set the desired file name
 
-    // Trigger a click event on the anchor element
-    link.click();
-    };
+    // // Trigger a click event on the anchor element
+    // link.click();
+    // };
+    const handleWatchOnline = () => {
+        window.open(brochure, '_blank');
+      };
 
   return (
     <div className="container-fluid" style={{ maxWidth: '70%' }}>
@@ -75,7 +78,9 @@ const TourDetail = () => {
 
 
 </div>
-<div className="text-center"><button className="btn" onClick={handleDownload}><i class="fa fa-download"></i> Tải về brochure</button></div>
+<div className="text-center">
+    <button className="btn" onClick={handleWatchOnline}><i class="fa fa-eye"></i>  Xem brochure</button>
+    </div>
 
 
 
