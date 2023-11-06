@@ -6,9 +6,24 @@ import ta_lai_tour_3 from "../../assets/images/tour_detail/ta_lai/3.png";
 import ta_lai_tour_4 from "../../assets/images/tour_detail/ta_lai/4.png";
 import ta_lai_tour_5 from "../../assets/images/tour_detail/ta_lai/5.png";
 import ta_lai_tour_6 from "../../assets/images/tour_detail/ta_lai/6.png";
+import brochure from "../../assets/files/brochures/SEP_brochure_TaLai.pdf";
 import { Link } from "react-router-dom";
 
 const TourDetail = () => {
+
+    // const pdfUrl = 'https://example.com/path-to-your-pdf-file.pdf';
+
+    const handleDownload = () => {
+    // Create a hidden anchor element
+    const link = document.createElement('a');
+    link.href = brochure;
+    link.target = '_blank';
+    link.download = 'SEP_brochure_TaLai.pdf'; // Set the desired file name
+
+    // Trigger a click event on the anchor element
+    link.click();
+    };
+
   return (
     <div className="container-fluid" style={{ maxWidth: '70%' }}>
 <div className="row mt-4">
@@ -57,7 +72,12 @@ const TourDetail = () => {
   <Link to="/registration" type="button" className="btn" style={{ backgroundColor: "#ffb03b", color: "white", borderRadius: "5px", fontSize: "1.3rem", fontWeight: "400", padding: "15px", width: "40%" }}>
     Đăng kí ngay
   </Link>
+
+
 </div>
+<div className="text-center"><button className="btn" onClick={handleDownload}><i class="fa fa-download"></i> Tải về brochure</button></div>
+
+
 
 </div>
 <hr className="mx-auto mb-5 mb-xl-9 border-dark-subtle"/>
