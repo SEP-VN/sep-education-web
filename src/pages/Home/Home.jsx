@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import bannerProject from "../../assets/images/banner/banner_project.png";
+import bannerHome from "../../assets/images/banner/banner_home.png";
 import bannerProject2 from "../../assets/images/banner/banner_project_2.png";
 import bannerProject3 from "../../assets/images/banner/banner_project_3.png";
 import duyimg from "../../assets/images/teams/duy.jpg";
@@ -205,10 +206,9 @@ const Home = () => {
 <section className="mt-5 py-3 py-md-3" >
 
   <div className="container-fluid" style={{ maxWidth: '90%' }}>
- 
     <div className="row gy-4 gy-md-4 gy-lg-0 align-items-lg-center">
       <div className="col-12 col-lg-6 col-xl-5">
-        <img className="img-fluid rounded" style={{ width: '100%', objectFit: 'cover' }} loading="lazy" src="https://hnm.1cdn.vn/2021/07/08/hanoimoi.com.vn-uploads-images-phananh-2021-07-08-_dulich1.jpg" alt="About 1"/>
+        <img className="img-fluid rounded" style={{ width: '100%', objectFit: 'cover' }} loading="lazy" src={bannerHome} alt="About 1"/>
       </div>
       <div className="col-12 col-lg-6 col-xl-7">
         <div className="row justify-content-xl-center">
@@ -220,7 +220,6 @@ const Home = () => {
       </div>
     </div>
   </div>
-
 </section>
 
 
