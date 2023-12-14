@@ -40,7 +40,7 @@ const Sepers = () => {
   
   return (
     <main>
-      <section className="vh-100 gradient-custom" style={{ paddingBottom: '30px' }}>
+      <section className="vh-100 gradient-custom" style={{ paddingBottom: '500px' }}>
         <div >
           <div className="heading-title text-center mt-2" style={{ marginBottom: 0}}>
           <h4 className="fw-bold">Chào mừng các bạn đến với cộng đồng SEPers 😊</h4>
