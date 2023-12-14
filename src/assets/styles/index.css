@@ -568,12 +568,3 @@ Link:active Link:visited Link:hover{
   line-height:72px;
   box-shadow: 3px 5px 26px rgba(0,0,0,0.3)
 }
-
-
-.card {
-  z-index: 1;
-}
-
-footer {
-  z-index: 2;
-}
