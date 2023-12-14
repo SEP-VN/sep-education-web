@@ -42,7 +42,7 @@ const Sepers = () => {
     <main>
       <section className="vh-100 gradient-custom" >
         <div >
-          <div className="heading-title text-center mt-2" style={{ marginBottom: 0}}>
+          <div className="heading-title text-center mt-1" style={{ marginBottom: 0}}>
           <h4 className="fw-bold">Chào mừng các bạn đến với cộng đồng SEPers 😊</h4>
           <hr className="w-50 mx-auto border-dark-subtle"/>
       </div>
@@ -51,14 +51,14 @@ const Sepers = () => {
         <div className="container-fluid mt-0" style={{ maxWidth: '80%' }}>
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col col-xl-10">
-            <div className="card mt-2 mb-6" style={{ maxHeight: '550px' }}>
-                <div className="card-body py-3">
+            <div className="card mt-2 mb-6" style={{ maxHeight: '550px', zIndex: '100' }}>
+                <div className="card-body py-2">
                   <div id="carouselDarkVariant" className="carousel slide carousel-dark" data-mdb-ride="carousel">
                     <div className="carousel-inner pt-2 pb-5">
                       <div className="carousel-item active">
                         <div className="row d-flex justify-content-center">
                           <div className="col-md-11 col-lg-10 col-xl-8">
-                            <div className="d-flex mb-5">
+                            <div className="d-flex mb-4">
                               <div className="flex-grow-1 text-center">
                                 <figure>
                                   <blockquote className="blockquote mb-4">

@@ -46,8 +46,8 @@ const Footer = () => {
   const second_title = "Liên hệ";
 
   return (
-    <footer className="container" >
-      <div className="row" style={{ gap: "20px",zIndex:"10000" }}>
+    <footer className="container" style={{ position: 'relative', zIndex: '10000' }}>
+      <div className="row" style={{ gap: "20px" }}> 
         <div className="col-md-6 col-12 row ">
           {/* <FooterList content={first_list} title={first_title} /> */}
           <FooterList content={second_list} title={second_title} />
