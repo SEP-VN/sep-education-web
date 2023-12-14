@@ -570,3 +570,10 @@ Link:active Link:visited Link:hover{
 }
 
 
+.card {
+  z-index: 1;
+}
+
+footer {
+  z-index: 2;
+}
