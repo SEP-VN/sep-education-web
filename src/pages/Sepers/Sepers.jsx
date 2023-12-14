@@ -40,7 +40,7 @@ const Sepers = () => {
   
   return (
     <main>
-      <section className="vh-100 gradient-custom" style={{ paddingBottom: '500px' }}>
+      <section className="vh-100 gradient-custom" >
         <div >
           <div className="heading-title text-center mt-2" style={{ marginBottom: 0}}>
           <h4 className="fw-bold">Chào mừng các bạn đến với cộng đồng SEPers 😊</h4>
@@ -51,7 +51,7 @@ const Sepers = () => {
         <div className="container-fluid mt-0" style={{ maxWidth: '80%' }}>
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col col-xl-10">
-            <div className="card mt-2 mb-5" style={{ maxHeight: '800px' }}>
+            <div className="card mt-2 mb-6" style={{ maxHeight: '700px' }}>
                 <div className="card-body py-3">
                   <div id="carouselDarkVariant" className="carousel slide carousel-dark" data-mdb-ride="carousel">
                     <div className="carousel-inner pt-2 pb-5">
