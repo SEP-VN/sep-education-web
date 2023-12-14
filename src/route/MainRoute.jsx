@@ -5,9 +5,10 @@ import VoluntaryTourism from "../pages/VoluntaryTourism/VoluntaryTourism";
 import TravelPartner from "../pages/TravelPartner/TravelPartner";
 import SignIn from "../pages/SignIn/SignIn";
 import TourInformation from "../pages/TourInformation/TourInformation";
-import Contact from "../pages/Contact/Contact";
+// import Contact from "../pages/Contact/Contact";
 import TourDetail from "../pages/TourDetail/TourDetail";
 import Blogs from "../pages/Blogs/Blogs";
+import Sepers from "../pages/Sepers/Sepers";
 
 const MainRoute = () => {
   return (
@@ -18,9 +19,10 @@ const MainRoute = () => {
       <Route path="/travel-partner" element={<TravelPartner />} />
       <Route path="/registration" element={<SignIn />} />
       <Route path="/tour-information" element={<TourInformation />} />
-      <Route path="/contact" element={<Contact />} />
+      {/* <Route path="/contact" element={<Contact />} /> */}
       <Route path="/tours/ta-lai-2-ngay-1-dem" element={<TourDetail />} />
       <Route path="/blogs" element={<Blogs />} />
+      <Route path="/sepers" element={<Sepers />} />
       <Route path="/*" element={<Home />} />
       </Routes>
     </div>

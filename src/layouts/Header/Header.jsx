@@ -60,15 +60,25 @@ const Header = () => {
       >
         <ul class="navbar-nav mr-auto">
         <li className={`nav-item ${currentPathname === "/" ? "active" : ""}`}>
-            <Link to="/" className="nav-link text-header mr-2">
+            <Link to="/" className="nav-link text-header mr-3">
               Trang chủ
+            </Link>
+          </li>
+
+          <li className={`nav-item ${currentPathname === "/sepers" ? "active" : ""}`}>
+            <Link 
+              to="/sepers" 
+              class="nav-link text-header mr-3"  
+      
+            >
+              SEPers
             </Link>
           </li>
           <li className={`nav-item ${currentPathname === "/voluntary-tourism" || currentPathname === "/tours/ta-lai-2-ngay-1-dem" ? "active" : ""}`}>
 
             <Link 
               to="/voluntary-tourism" 
-              class="nav-link text-header mr-2"  
+              class="nav-link text-header mr-3"  
               
             >
               Du lịch tình nguyện
@@ -77,12 +87,12 @@ const Header = () => {
           <li className={`nav-item ${currentPathname === "/travel-partner" ? "active" : ""}`}>
             <Link 
               to="/travel-partner" 
-              class="nav-link text-header mr-2"  
+              class="nav-link text-header mr-3"  
             >
               Đối tác du lịch
             </Link>
           </li>
-          <li className={`nav-item ${currentPathname === "/contact" ? "active" : ""}`}>
+          {/* <li className={`nav-item ${currentPathname === "/contact" ? "active" : ""}`}>
             <Link 
               to="/contact" 
               class="nav-link text-header mr-2"  
@@ -90,21 +100,23 @@ const Header = () => {
             >
               Liên hệ
             </Link>
-          </li>
+          </li> */}
           <li className={`nav-item ${currentPathname === "/blogs" ? "active" : ""}`}>
             <Link 
               to="/blogs" 
-              class="nav-link text-header mr-2"  
+              class="nav-link text-header mr-3"  
       
             >
               Blogs
             </Link>
           </li>
+         
           <li class="nav-item">
             <a rel="noreferrer" target="_blank" class="nav-link text-header mr-2" href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAACzTRwNUNlhMR1NPV0I0NFdRNFY1OVBUSlRUMjBPTS4u" onClick={toggleCollapse}>
               Feedback cho dự án
             </a>
           </li>
+          
         </ul>
        { !items ?<div>
           <button className="btn-primary mr-45">
