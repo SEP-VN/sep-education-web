@@ -51,13 +51,13 @@ const Sepers = () => {
         <div className="container-fluid mt-0" style={{ maxWidth: '80%' }}>
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col col-xl-10">
-            <div className="card mt-2 mb-5" style={{ maxHeight: '800px', overflowY: 'auto' }}>
+            <div className="card mt-2 mb-5" style={{ maxHeight: '600px', overflowY: 'auto' }}>
                 <div className="card-body py-3">
                   <div id="carouselDarkVariant" className="carousel slide carousel-dark" data-mdb-ride="carousel">
                     <div className="carousel-inner pt-2 pb-5">
                       <div className="carousel-item active">
                         <div className="row d-flex justify-content-center">
-                          <div className="col-md-10 col-lg-9 col-xl-8">
+                          <div className="col-md-11 col-lg-10 col-xl-8">
                             <div className="d-flex mb-5">
                               <div className="flex-grow-1 text-center">
                                 <figure>
