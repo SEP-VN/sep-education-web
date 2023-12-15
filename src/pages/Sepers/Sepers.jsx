@@ -91,7 +91,7 @@ const Sepers = () => {
         <div className="container-fluid mt-0" style={{ maxWidth: '80%' }}>
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col col-xl-10">
-            <div className="card mt-2 mb-0 pt-0" style={{ maxHeight: '80%', overflowY: 'auto' }}>
+            <div className="card mt-2 mb-0 pt-0" style={{ maxHeight: '700px', overflowY: 'auto' }}>
                 <div className="card-body py-2">
                 {showButton && (
                     <div className="card-body text-center">
