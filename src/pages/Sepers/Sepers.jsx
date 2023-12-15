@@ -3,7 +3,7 @@ import './SepersStyle.css';
 import perfectSong from "../../assets/music/perfect.mp3"; 
 import perfectBg from "../../assets/images/music_bg/perfect.jpg"; 
 import { useRef,  useState, useEffect  } from 'react';
-
+import Snowfall from 'react-snowfall'
 
 
 const Sepers = () => {
@@ -82,7 +82,7 @@ const Sepers = () => {
       <section className="vh-100 gradient-custom" >
       
         <div >
-          <div className="heading-title text-center mt-1" style={{ marginBottom: 0}}>
+          <div className="heading-title text-center mt-0" style={{ marginBottom: 0}}>
           <h4 className="fw-bold">Chào mừng các bạn đến với cộng đồng SEPers 😊</h4>
           <hr className="w-50 mx-auto border-dark-subtle"/>
       </div>
@@ -106,7 +106,19 @@ const Sepers = () => {
                   </audio>
                   {showContent && (
                       <div className="card-body text-center">
-                        <p style={{ color: 'var(--primary-color)' }}>{getCurrentDate()}</p>
+                        
+                        <p className="mb-2">
+                      <i className="fas fa-cloud me-3" style={{ color: '#99c2f2', fontSize: '1em' }}></i>
+                      <strong>Món quà S.E.P tặng bạn ngày <span style={{ color: 'var(--primary-color)' }}>{getCurrentDate()}</span></strong>
+                      <i className="fas fa-sun ms-3" style={{ color: '#FFC300', fontSize: '1em' }}></i>
+                    </p>
+
+
+
+
+                        
+                        <hr className="w-50 mx-auto border-dark-subtle mb-3"/>
+                        
                         <div className="row d-flex justify-content-center">
                           <div className="col-md-11 col-lg-10 col-xl-8">
                             <div className="d-flex mb-4">
@@ -139,8 +151,10 @@ const Sepers = () => {
                             </div>
                             <div class="card-body text-center">
 
-                              <h5 class="h5 font-weight-bold"><a href="https://www.youtube.com/watch?v=2Vv-BfVoq4g">Perfect</a></h5>
-                              <p class="mb-0">Ed Sheeran</p>
+                            <h5 class="h5 mb-1 font-weight-bold"><a href="https://www.youtube.com/watch?v=2Vv-BfVoq4g">Perfect</a></h5>
+                  <p class="small text-muted mb-0">Ed Sheeran</p>
+
+                      
 
                               
                               <div id="audioplayer">
@@ -154,7 +168,18 @@ const Sepers = () => {
                           </div>
                       
                         </div>
+                          <Snowfall
+                          color="#BEE1FA"
+                          style={{
+                            position: 'absolute',
+                            width: '100%',
+                            height: '100%',
+                            
+                          }}
+                
+                        />
                       </div>
+                      
                     )}
             
                         
