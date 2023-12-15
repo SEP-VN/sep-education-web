@@ -121,7 +121,7 @@ const Sepers = () => {
                         
                         <div className="row d-flex justify-content-center">
                           <div className="col-md-11 col-lg-10 col-xl-8">
-                            <div className="d-flex mb-4">
+                            <div className="d-flex mb-2">
                               <div className="flex-grow-1 text-center">
                                 <figure>
                                   <blockquote className="blockquote mb-4">
